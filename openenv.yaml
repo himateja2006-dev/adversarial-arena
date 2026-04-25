@@ -1,0 +1,27 @@
+name: adversarial-arena
+version: "1.0.0"
+description: Adaptive multi-agent belief modeling environment with strict inference protocol.
+entrypoint: inference.py
+runtime:
+  python: "3.11"
+environment:
+  api_style: gym
+  methods:
+    - reset
+    - step
+    - state
+tasks:
+  - static_opponent
+  - adaptive_opponent
+  - deceptive_opponent
+grading:
+  score_range: [0.0, 1.0]
+  metrics:
+    - performance
+    - adaptation
+    - consistency
+inference:
+  strict_output: true
+  start_token: "[START]"
+  step_token: "[STEP]"
+  end_token: "[END]"

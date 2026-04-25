@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv2/
+cricenv/
+
+# Environment variables / secrets
+.env
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Training intermediate checkpoints
+training/artifacts/unsloth_ckpt/
+trained_model/unsloth_adapter/

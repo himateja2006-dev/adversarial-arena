@@ -1,0 +1,8 @@
+{
+  "counter_map": {
+    "yorker": "defensive",
+    "bouncer": "balanced",
+    "spin": "aggressive",
+    "slow_ball": "balanced"
+  }
+}

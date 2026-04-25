@@ -1,0 +1,28 @@
+# Core env + config
+python-dotenv==1.0.1
+
+# API + OpenEnv serving
+fastapi==0.111.0
+uvicorn==0.30.0
+pydantic==2.7.1
+
+# Core utilities
+numpy==1.26.4
+requests==2.32.3
+
+# LLM client (OpenAI-compatible)
+openai==1.30.1
+
+# RL / Training stack
+torch==2.3.0
+transformers==4.41.2
+datasets==2.19.1
+accelerate==0.30.1
+trl==0.9.6
+
+# Efficient fine-tuning
+unsloth
+
+# Optional but useful (safe additions)
+tqdm==4.66.4
+matplotlib==3.9.0

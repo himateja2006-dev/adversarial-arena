@@ -1,0 +1,20 @@
+[
+  {
+    "state_hint": "High belief on spin, wickets in hand",
+    "baseline_action": "balanced",
+    "trained_action": "aggressive",
+    "why_better": "Exploits spin matchup to increase scoring without high wicket risk."
+  },
+  {
+    "state_hint": "High belief on yorker, wickets collapsing",
+    "baseline_action": "aggressive",
+    "trained_action": "defensive",
+    "why_better": "Protects wicket while preserving chase stability under pressure."
+  },
+  {
+    "state_hint": "Deceptive opponent alternating slow_ball and yorker",
+    "baseline_action": "balanced",
+    "trained_action": "belief-conditioned switch",
+    "why_better": "Uses updated posterior and history instead of static response."
+  }
+]

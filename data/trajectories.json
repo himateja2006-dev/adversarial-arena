@@ -6,7 +6,7 @@
     "state": {
       "ball_number": 1,
       "runs": 0,
-      "wickets": 1,
+      "wickets": 0,
       "required_run_rate": 9.310344827586206,
       "pitch_condition": "flat",
       "batter_form": 0.5309,
@@ -22,8 +22,8 @@
     "history": [
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.4,
+    "action": "defensive",
+    "reward": 0.0,
     "opponent_action": "spin"
   },
   {
@@ -32,9 +32,9 @@
     "step": 2,
     "state": {
       "ball_number": 2,
-      "runs": 6,
-      "wickets": 1,
-      "required_run_rate": 8.357142857142858,
+      "runs": 2,
+      "wickets": 0,
+      "required_run_rate": 9.214285714285714,
       "pitch_condition": "flat",
       "batter_form": 0.5409,
       "bowler_fatigue": 0.1049,
@@ -51,7 +51,7 @@
       "spin"
     ],
     "action": "balanced",
-    "reward": 0.5,
+    "reward": 0.16666666666666666,
     "opponent_action": "spin"
   },
   {
@@ -60,9 +60,9 @@
     "step": 3,
     "state": {
       "ball_number": 3,
-      "runs": 7,
-      "wickets": 1,
-      "required_run_rate": 8.444444444444445,
+      "runs": 3,
+      "wickets": 0,
+      "required_run_rate": 9.333333333333334,
       "pitch_condition": "flat",
       "batter_form": 0.5509,
       "bowler_fatigue": 0.1249,
@@ -89,9 +89,9 @@
     "step": 4,
     "state": {
       "ball_number": 4,
-      "runs": 10,
-      "wickets": 1,
-      "required_run_rate": 8.076923076923077,
+      "runs": 9,
+      "wickets": 0,
+      "required_run_rate": 8.307692307692308,
       "pitch_condition": "flat",
       "batter_form": 0.5609,
       "bowler_fatigue": 0.1449,
@@ -109,8 +109,8 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.25,
+    "action": "aggressive",
+    "reward": 1.0,
     "opponent_action": "spin"
   },
   {
@@ -119,9 +119,9 @@
     "step": 5,
     "state": {
       "ball_number": 5,
-      "runs": 13,
-      "wickets": 1,
-      "required_run_rate": 7.68,
+      "runs": 10,
+      "wickets": 0,
+      "required_run_rate": 8.4,
       "pitch_condition": "flat",
       "batter_form": 0.5709,
       "bowler_fatigue": 0.1649,
@@ -140,8 +140,8 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.24500000000000002,
+    "action": "balanced",
+    "reward": 0.07833333333333335,
     "opponent_action": "spin"
   },
   {
@@ -150,9 +150,9 @@
     "step": 6,
     "state": {
       "ball_number": 6,
-      "runs": 17,
-      "wickets": 1,
-      "required_run_rate": 7.0,
+      "runs": 11,
+      "wickets": 0,
+      "required_run_rate": 8.5,
       "pitch_condition": "flat",
       "batter_form": 0.5809,
       "bowler_fatigue": 0.1849,
@@ -173,7 +173,7 @@
       "spin"
     ],
     "action": "aggressive",
-    "reward": 0.8183333333333334,
+    "reward": 0.5683333333333334,
     "opponent_action": "spin"
   },
   {
@@ -182,9 +182,9 @@
     "step": 7,
     "state": {
       "ball_number": 7,
-      "runs": 20,
-      "wickets": 1,
-      "required_run_rate": 6.521739130434782,
+      "runs": 15,
+      "wickets": 0,
+      "required_run_rate": 7.826086956521739,
       "pitch_condition": "flat",
       "batter_form": 0.5909,
       "bowler_fatigue": 0.2049,
@@ -205,8 +205,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.2268181818181818,
+    "action": "aggressive",
+    "reward": 0.7601515151515151,
     "opponent_action": "spin"
   },
   {
@@ -215,11 +215,11 @@
     "step": 8,
     "state": {
       "ball_number": 8,
-      "runs": 20,
-      "wickets": 1,
-      "required_run_rate": 6.818181818181818,
+      "runs": 21,
+      "wickets": 0,
+      "required_run_rate": 6.545454545454546,
       "pitch_condition": "flat",
-      "batter_form": 0.5709,
+      "batter_form": 0.6009,
       "bowler_fatigue": 0.2249,
       "agent_personality": "analytical"
     },
@@ -240,7 +240,7 @@
       "spin"
     ],
     "action": "defensive",
-    "reward": 0.0,
+    "reward": 0.47000000000000003,
     "opponent_action": "spin"
   },
   {
@@ -250,10 +250,10 @@
     "state": {
       "ball_number": 9,
       "runs": 24,
-      "wickets": 1,
+      "wickets": 0,
       "required_run_rate": 6.0,
       "pitch_condition": "flat",
-      "batter_form": 0.5809,
+      "batter_form": 0.6109,
       "bowler_fatigue": 0.2449,
       "agent_personality": "analytical"
     },
@@ -274,7 +274,7 @@
       "spin"
     ],
     "action": "balanced",
-    "reward": 0.29756410256410254,
+    "reward": 0.21423076923076922,
     "opponent_action": "spin"
   },
   {
@@ -283,11 +283,11 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 24,
-      "wickets": 1,
-      "required_run_rate": 6.3,
+      "runs": 28,
+      "wickets": 0,
+      "required_run_rate": 5.1,
       "pitch_condition": "flat",
-      "batter_form": 0.5609,
+      "batter_form": 0.6209,
       "bowler_fatigue": 0.2649,
       "agent_personality": "analytical"
     },
@@ -307,8 +307,8 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.0,
+    "action": "balanced",
+    "reward": 0.2926190476190476,
     "opponent_action": "spin"
   },
   {
@@ -317,11 +317,11 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 27,
-      "wickets": 1,
-      "required_run_rate": 5.684210526315789,
+      "runs": 32,
+      "wickets": 0,
+      "required_run_rate": 4.105263157894737,
       "pitch_condition": "flat",
-      "batter_form": 0.5709,
+      "batter_form": 0.6309,
       "bowler_fatigue": 0.2849,
       "agent_personality": "analytical"
     },
@@ -342,7 +342,7 @@
       "spin"
     ],
     "action": "aggressive",
-    "reward": 0.705,
+    "reward": 0.7883333333333333,
     "opponent_action": "spin"
   },
   {
@@ -351,11 +351,11 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 30,
-      "wickets": 1,
-      "required_run_rate": 5.0,
+      "runs": 33,
+      "wickets": 0,
+      "required_run_rate": 4.0,
       "pitch_condition": "flat",
-      "batter_form": 0.5809,
+      "batter_form": 0.6409,
       "bowler_fatigue": 0.3049,
       "agent_personality": "analytical"
     },
@@ -375,8 +375,8 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.20125,
+    "action": "aggressive",
+    "reward": 0.5345833333333334,
     "opponent_action": "spin"
   },
   {
@@ -385,11 +385,11 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 33,
-      "wickets": 1,
-      "required_run_rate": 4.235294117647059,
+      "runs": 37,
+      "wickets": 0,
+      "required_run_rate": 2.823529411764706,
       "pitch_condition": "flat",
-      "batter_form": 0.5909,
+      "batter_form": 0.6509,
       "bowler_fatigue": 0.3249,
       "agent_personality": "analytical"
     },
@@ -409,8 +409,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.6979411764705883,
+    "action": "balanced",
+    "reward": 0.28127450980392155,
     "opponent_action": "spin"
   },
   {
@@ -419,11 +419,11 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 36,
-      "wickets": 1,
-      "required_run_rate": 3.375,
+      "runs": 38,
+      "wickets": 0,
+      "required_run_rate": 2.625,
       "pitch_condition": "flat",
-      "batter_form": 0.6009,
+      "batter_form": 0.6609,
       "bowler_fatigue": 0.3449,
       "agent_personality": "analytical"
     },
@@ -443,8 +443,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.195,
+    "action": "aggressive",
+    "reward": 0.5283333333333333,
     "opponent_action": "spin"
   },
   {
@@ -453,11 +453,11 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 37,
-      "wickets": 1,
-      "required_run_rate": 3.2,
+      "runs": 38,
+      "wickets": 0,
+      "required_run_rate": 2.8,
       "pitch_condition": "flat",
-      "batter_form": 0.6109,
+      "batter_form": 0.6409,
       "bowler_fatigue": 0.3649,
       "agent_personality": "analytical"
     },
@@ -477,8 +477,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.025701754385964934,
+    "action": "defensive",
+    "reward": 0.0,
     "opponent_action": "spin"
   },
   {
@@ -487,11 +487,11 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 37,
-      "wickets": 2,
-      "required_run_rate": 3.4285714285714284,
+      "runs": 41,
+      "wickets": 0,
+      "required_run_rate": 1.7142857142857142,
       "pitch_condition": "flat",
-      "batter_form": 0.5909,
+      "batter_form": 0.6509,
       "bowler_fatigue": 0.3849,
       "agent_personality": "analytical"
     },
@@ -511,8 +511,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.44,
+    "action": "balanced",
+    "reward": 0.19,
     "opponent_action": "spin"
   },
   {
@@ -521,11 +521,11 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 41,
-      "wickets": 2,
-      "required_run_rate": 1.8461538461538463,
+      "runs": 43,
+      "wickets": 0,
+      "required_run_rate": 0.9230769230769231,
       "pitch_condition": "flat",
-      "batter_form": 0.6009,
+      "batter_form": 0.6609,
       "bowler_fatigue": 0.4049,
       "agent_personality": "analytical"
     },
@@ -545,8 +545,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.7711904761904762,
+    "action": "defensive",
+    "reward": 0.10452380952380955,
     "opponent_action": "spin"
   },
   {
@@ -555,11 +555,11 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 43,
-      "wickets": 2,
-      "required_run_rate": 1.0,
+      "runs": 44,
+      "wickets": 0,
+      "required_run_rate": 0.5,
       "pitch_condition": "flat",
-      "batter_form": 0.6109,
+      "batter_form": 0.6709,
       "bowler_fatigue": 0.4249,
       "agent_personality": "analytical"
     },
@@ -579,8 +579,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.10257575757575757,
+    "action": "aggressive",
+    "reward": 0.5192424242424243,
     "opponent_action": "spin"
   },
   {
@@ -589,11 +589,11 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 44,
-      "wickets": 2,
-      "required_run_rate": 0.5454545454545454,
+      "runs": 46,
+      "wickets": 0,
+      "required_run_rate": 0.0,
       "pitch_condition": "flat",
-      "batter_form": 0.6209,
+      "batter_form": 0.6809,
       "bowler_fatigue": 0.4449,
       "agent_personality": "analytical"
     },
@@ -614,41 +614,7 @@
       "spin"
     ],
     "action": "aggressive",
-    "reward": 0.5174637681159421,
-    "opponent_action": "spin"
-  },
-  {
-    "task": "static_opponent",
-    "episode": 0,
-    "step": 20,
-    "state": {
-      "ball_number": 20,
-      "runs": 46,
-      "wickets": 2,
-      "required_run_rate": 0.0,
-      "pitch_condition": "flat",
-      "batter_form": 0.6309,
-      "bowler_fatigue": 0.4649,
-      "agent_personality": "analytical"
-    },
-    "belief": {
-      "yorker": 0.041666666666666664,
-      "bouncer": 0.041666666666666664,
-      "spin": 0.875,
-      "slow_ball": 0.041666666666666664
-    },
-    "history": [
-      "spin",
-      "spin",
-      "spin",
-      "spin",
-      "spin",
-      "spin",
-      "spin",
-      "spin"
-    ],
-    "action": "aggressive",
-    "reward": 0.5491666666666666,
+    "reward": 0.6007971014492753,
     "opponent_action": "spin"
   },
   {
@@ -674,8 +640,8 @@
     "history": [
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.08333333333333333,
+    "action": "defensive",
+    "reward": 0.48333333333333334,
     "opponent_action": "yorker"
   },
   {
@@ -684,50 +650,21 @@
     "step": 2,
     "state": {
       "ball_number": 2,
-      "runs": 4,
+      "runs": 5,
       "wickets": 0,
-      "required_run_rate": 8.785714285714286,
+      "required_run_rate": 8.571428571428571,
       "pitch_condition": "green",
       "batter_form": 0.5982,
       "bowler_fatigue": 0.1197,
       "agent_personality": "calm"
     },
     "belief": {
-      "yorker": 0.5,
+      "yorker": 0.3333333333333333,
       "bouncer": 0.16666666666666666,
-      "spin": 0.16666666666666666,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.16666666666666666
     },
     "history": [
-      "yorker",
-      "yorker"
-    ],
-    "action": "defensive",
-    "reward": 0.75,
-    "opponent_action": "yorker"
-  },
-  {
-    "task": "adaptive_opponent",
-    "episode": 1,
-    "step": 3,
-    "state": {
-      "ball_number": 3,
-      "runs": 8,
-      "wickets": 0,
-      "required_run_rate": 8.222222222222221,
-      "pitch_condition": "green",
-      "batter_form": 0.6082,
-      "bowler_fatigue": 0.1397,
-      "agent_personality": "calm"
-    },
-    "belief": {
-      "yorker": 0.42857142857142855,
-      "bouncer": 0.14285714285714285,
-      "spin": 0.2857142857142857,
-      "slow_ball": 0.14285714285714285
-    },
-    "history": [
-      "yorker",
       "yorker",
       "spin"
     ],
@@ -738,12 +675,41 @@
   {
     "task": "adaptive_opponent",
     "episode": 1,
+    "step": 3,
+    "state": {
+      "ball_number": 3,
+      "runs": 9,
+      "wickets": 0,
+      "required_run_rate": 8.0,
+      "pitch_condition": "green",
+      "batter_form": 0.6082,
+      "bowler_fatigue": 0.1397,
+      "agent_personality": "calm"
+    },
+    "belief": {
+      "yorker": 0.2857142857142857,
+      "bouncer": 0.2857142857142857,
+      "spin": 0.2857142857142857,
+      "slow_ball": 0.14285714285714285
+    },
+    "history": [
+      "yorker",
+      "spin",
+      "bouncer"
+    ],
+    "action": "aggressive",
+    "reward": 0.3333333333333333,
+    "opponent_action": "bouncer"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 1,
     "step": 4,
     "state": {
       "ball_number": 4,
-      "runs": 8,
+      "runs": 9,
       "wickets": 0,
-      "required_run_rate": 8.538461538461538,
+      "required_run_rate": 8.307692307692308,
       "pitch_condition": "green",
       "batter_form": 0.5882,
       "bowler_fatigue": 0.1597,
@@ -757,13 +723,13 @@
     },
     "history": [
       "yorker",
-      "yorker",
       "spin",
-      "bouncer"
+      "bouncer",
+      "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.1,
-    "opponent_action": "bouncer"
+    "action": "balanced",
+    "reward": 0.0,
+    "opponent_action": "yorker"
   },
   {
     "task": "adaptive_opponent",
@@ -771,9 +737,9 @@
     "step": 5,
     "state": {
       "ball_number": 5,
-      "runs": 8,
+      "runs": 9,
       "wickets": 0,
-      "required_run_rate": 8.88,
+      "required_run_rate": 8.64,
       "pitch_condition": "green",
       "batter_form": 0.5682,
       "bowler_fatigue": 0.1797,
@@ -781,20 +747,20 @@
     },
     "belief": {
       "yorker": 0.3333333333333333,
-      "bouncer": 0.2222222222222222,
-      "spin": 0.3333333333333333,
+      "bouncer": 0.3333333333333333,
+      "spin": 0.2222222222222222,
       "slow_ball": 0.1111111111111111
     },
     "history": [
       "yorker",
-      "yorker",
       "spin",
       "bouncer",
-      "spin"
+      "yorker",
+      "bouncer"
     ],
-    "action": "defensive",
-    "reward": 0.1,
-    "opponent_action": "spin"
+    "action": "aggressive",
+    "reward": 0.0,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -802,31 +768,31 @@
     "step": 6,
     "state": {
       "ball_number": 6,
-      "runs": 11,
+      "runs": 12,
       "wickets": 0,
-      "required_run_rate": 8.5,
+      "required_run_rate": 8.25,
       "pitch_condition": "green",
       "batter_form": 0.5782,
       "bowler_fatigue": 0.1997,
       "agent_personality": "calm"
     },
     "belief": {
-      "yorker": 0.3,
-      "bouncer": 0.2,
-      "spin": 0.4,
+      "yorker": 0.4,
+      "bouncer": 0.3,
+      "spin": 0.2,
       "slow_ball": 0.1
     },
     "history": [
       "yorker",
-      "yorker",
       "spin",
       "bouncer",
-      "spin",
-      "spin"
+      "yorker",
+      "bouncer",
+      "yorker"
     ],
     "action": "defensive",
-    "reward": 0.2,
-    "opponent_action": "spin"
+    "reward": 0.65,
+    "opponent_action": "yorker"
   },
   {
     "task": "adaptive_opponent",
@@ -834,31 +800,31 @@
     "step": 7,
     "state": {
       "ball_number": 7,
-      "runs": 14,
+      "runs": 15,
       "wickets": 0,
-      "required_run_rate": 8.08695652173913,
+      "required_run_rate": 7.826086956521739,
       "pitch_condition": "green",
       "batter_form": 0.5882,
       "bowler_fatigue": 0.2197,
       "agent_personality": "calm"
     },
     "belief": {
-      "yorker": 0.2727272727272727,
-      "bouncer": 0.18181818181818182,
-      "spin": 0.45454545454545453,
+      "yorker": 0.36363636363636365,
+      "bouncer": 0.2727272727272727,
+      "spin": 0.2727272727272727,
       "slow_ball": 0.09090909090909091
     },
     "history": [
       "yorker",
-      "yorker",
       "spin",
       "bouncer",
-      "spin",
-      "spin",
+      "yorker",
+      "bouncer",
+      "yorker",
       "spin"
     ],
     "action": "defensive",
-    "reward": 0.2,
+    "reward": 0.35,
     "opponent_action": "spin"
   },
   {
@@ -867,27 +833,27 @@
     "step": 8,
     "state": {
       "ball_number": 8,
-      "runs": 20,
+      "runs": 21,
       "wickets": 0,
-      "required_run_rate": 6.818181818181818,
+      "required_run_rate": 6.545454545454546,
       "pitch_condition": "green",
       "batter_form": 0.5982,
       "bowler_fatigue": 0.2397,
       "agent_personality": "calm"
     },
     "belief": {
-      "yorker": 0.25,
-      "bouncer": 0.16666666666666666,
-      "spin": 0.5,
+      "yorker": 0.3333333333333333,
+      "bouncer": 0.25,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.08333333333333333
     },
     "history": [
       "yorker",
-      "yorker",
       "spin",
       "bouncer",
-      "spin",
-      "spin",
+      "yorker",
+      "bouncer",
+      "yorker",
       "spin",
       "spin"
     ],
@@ -901,32 +867,32 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 23,
+      "runs": 24,
       "wickets": 0,
-      "required_run_rate": 6.285714285714286,
+      "required_run_rate": 6.0,
       "pitch_condition": "green",
       "batter_form": 0.6082,
       "bowler_fatigue": 0.2597,
       "agent_personality": "calm"
     },
     "belief": {
-      "yorker": 0.23076923076923078,
-      "bouncer": 0.23076923076923078,
-      "spin": 0.46153846153846156,
+      "yorker": 0.3076923076923077,
+      "bouncer": 0.3076923076923077,
+      "spin": 0.3076923076923077,
       "slow_ball": 0.07692307692307693
     },
     "history": [
-      "yorker",
       "spin",
       "bouncer",
-      "spin",
-      "spin",
+      "yorker",
+      "bouncer",
+      "yorker",
       "spin",
       "spin",
       "bouncer"
     ],
     "action": "defensive",
-    "reward": 0.2,
+    "reward": 0.25,
     "opponent_action": "bouncer"
   },
   {
@@ -935,25 +901,25 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 23,
+      "runs": 24,
       "wickets": 0,
-      "required_run_rate": 6.6,
+      "required_run_rate": 6.3,
       "pitch_condition": "green",
       "batter_form": 0.5882,
       "bowler_fatigue": 0.2797,
       "agent_personality": "calm"
     },
     "belief": {
-      "yorker": 0.21428571428571427,
-      "bouncer": 0.21428571428571427,
-      "spin": 0.5,
+      "yorker": 0.2857142857142857,
+      "bouncer": 0.2857142857142857,
+      "spin": 0.35714285714285715,
       "slow_ball": 0.07142857142857142
     },
     "history": [
-      "spin",
       "bouncer",
-      "spin",
-      "spin",
+      "yorker",
+      "bouncer",
+      "yorker",
       "spin",
       "spin",
       "bouncer",
@@ -969,32 +935,32 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 23,
+      "runs": 24,
       "wickets": 0,
-      "required_run_rate": 6.947368421052632,
+      "required_run_rate": 6.631578947368421,
       "pitch_condition": "green",
       "batter_form": 0.5682,
       "bowler_fatigue": 0.2997,
       "agent_personality": "calm"
     },
     "belief": {
-      "yorker": 0.2,
-      "bouncer": 0.26666666666666666,
-      "spin": 0.4666666666666667,
+      "yorker": 0.26666666666666666,
+      "bouncer": 0.3333333333333333,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.06666666666666667
     },
     "history": [
+      "yorker",
       "bouncer",
-      "spin",
-      "spin",
+      "yorker",
       "spin",
       "spin",
       "bouncer",
       "spin",
       "bouncer"
     ],
-    "action": "aggressive",
-    "reward": 0.1,
+    "action": "defensive",
+    "reward": 0.0,
     "opponent_action": "bouncer"
   },
   {
@@ -1003,9 +969,9 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 25,
+      "runs": 27,
       "wickets": 0,
-      "required_run_rate": 6.666666666666667,
+      "required_run_rate": 6.0,
       "pitch_condition": "green",
       "batter_form": 0.5782,
       "bowler_fatigue": 0.3197,
@@ -1013,23 +979,23 @@
     },
     "belief": {
       "yorker": 0.25,
-      "bouncer": 0.25,
-      "spin": 0.4375,
+      "bouncer": 0.3125,
+      "spin": 0.375,
       "slow_ball": 0.0625
     },
     "history": [
-      "spin",
-      "spin",
+      "bouncer",
+      "yorker",
       "spin",
       "spin",
       "bouncer",
       "spin",
       "bouncer",
-      "yorker"
+      "spin"
     ],
     "action": "defensive",
-    "reward": 0.5666666666666667,
-    "opponent_action": "yorker"
+    "reward": 0.25,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -1037,9 +1003,9 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 25,
+      "runs": 27,
       "wickets": 1,
-      "required_run_rate": 7.0588235294117645,
+      "required_run_rate": 6.352941176470588,
       "pitch_condition": "green",
       "batter_form": 0.5582,
       "bowler_fatigue": 0.3397,
@@ -1047,18 +1013,18 @@
     },
     "belief": {
       "yorker": 0.23529411764705882,
-      "bouncer": 0.23529411764705882,
-      "spin": 0.47058823529411764,
+      "bouncer": 0.29411764705882354,
+      "spin": 0.4117647058823529,
       "slow_ball": 0.058823529411764705
     },
     "history": [
-      "spin",
-      "spin",
-      "spin",
-      "bouncer",
-      "spin",
-      "bouncer",
       "yorker",
+      "spin",
+      "spin",
+      "bouncer",
+      "spin",
+      "bouncer",
+      "spin",
       "spin"
     ],
     "action": "aggressive",
@@ -1071,9 +1037,9 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 26,
+      "runs": 28,
       "wickets": 1,
-      "required_run_rate": 7.125,
+      "required_run_rate": 6.375,
       "pitch_condition": "green",
       "batter_form": 0.5682,
       "bowler_fatigue": 0.3597,
@@ -1081,8 +1047,8 @@
     },
     "belief": {
       "yorker": 0.2777777777777778,
-      "bouncer": 0.2222222222222222,
-      "spin": 0.4444444444444444,
+      "bouncer": 0.2777777777777778,
+      "spin": 0.3888888888888889,
       "slow_ball": 0.05555555555555555
     },
     "history": [
@@ -1091,7 +1057,7 @@
       "bouncer",
       "spin",
       "bouncer",
-      "yorker",
+      "spin",
       "spin",
       "yorker"
     ],
@@ -1105,9 +1071,9 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 29,
+      "runs": 31,
       "wickets": 1,
-      "required_run_rate": 6.4,
+      "required_run_rate": 5.6,
       "pitch_condition": "green",
       "batter_form": 0.5782,
       "bowler_fatigue": 0.3797,
@@ -1115,8 +1081,8 @@
     },
     "belief": {
       "yorker": 0.2631578947368421,
-      "bouncer": 0.2631578947368421,
-      "spin": 0.42105263157894735,
+      "bouncer": 0.3157894736842105,
+      "spin": 0.3684210526315789,
       "slow_ball": 0.05263157894736842
     },
     "history": [
@@ -1124,7 +1090,7 @@
       "bouncer",
       "spin",
       "bouncer",
-      "yorker",
+      "spin",
       "spin",
       "yorker",
       "bouncer"
@@ -1139,9 +1105,9 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 29,
+      "runs": 31,
       "wickets": 1,
-      "required_run_rate": 6.857142857142857,
+      "required_run_rate": 6.0,
       "pitch_condition": "green",
       "batter_form": 0.5582,
       "bowler_fatigue": 0.3997,
@@ -1149,15 +1115,15 @@
     },
     "belief": {
       "yorker": 0.3,
-      "bouncer": 0.25,
-      "spin": 0.4,
+      "bouncer": 0.3,
+      "spin": 0.35,
       "slow_ball": 0.05
     },
     "history": [
       "bouncer",
       "spin",
       "bouncer",
-      "yorker",
+      "spin",
       "spin",
       "yorker",
       "bouncer",
@@ -1173,9 +1139,9 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 30,
+      "runs": 32,
       "wickets": 1,
-      "required_run_rate": 6.923076923076923,
+      "required_run_rate": 6.0,
       "pitch_condition": "green",
       "batter_form": 0.5682,
       "bowler_fatigue": 0.4197,
@@ -1183,14 +1149,14 @@
     },
     "belief": {
       "yorker": 0.3333333333333333,
-      "bouncer": 0.23809523809523808,
-      "spin": 0.38095238095238093,
+      "bouncer": 0.2857142857142857,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.047619047619047616
     },
     "history": [
       "spin",
       "bouncer",
-      "yorker",
+      "spin",
       "spin",
       "yorker",
       "bouncer",
@@ -1207,9 +1173,9 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 30,
+      "runs": 32,
       "wickets": 1,
-      "required_run_rate": 7.5,
+      "required_run_rate": 6.5,
       "pitch_condition": "green",
       "batter_form": 0.5482,
       "bowler_fatigue": 0.4397,
@@ -1217,13 +1183,13 @@
     },
     "belief": {
       "yorker": 0.3181818181818182,
-      "bouncer": 0.2727272727272727,
-      "spin": 0.36363636363636365,
+      "bouncer": 0.3181818181818182,
+      "spin": 0.3181818181818182,
       "slow_ball": 0.045454545454545456
     },
     "history": [
       "bouncer",
-      "yorker",
+      "spin",
       "spin",
       "yorker",
       "bouncer",
@@ -1241,9 +1207,9 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 31,
+      "runs": 33,
       "wickets": 1,
-      "required_run_rate": 7.636363636363637,
+      "required_run_rate": 6.545454545454546,
       "pitch_condition": "green",
       "batter_form": 0.5582,
       "bowler_fatigue": 0.4597,
@@ -1251,12 +1217,12 @@
     },
     "belief": {
       "yorker": 0.30434782608695654,
-      "bouncer": 0.30434782608695654,
-      "spin": 0.34782608695652173,
+      "bouncer": 0.34782608695652173,
+      "spin": 0.30434782608695654,
       "slow_ball": 0.043478260869565216
     },
     "history": [
-      "yorker",
+      "spin",
       "spin",
       "yorker",
       "bouncer",
@@ -1275,9 +1241,9 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 32,
+      "runs": 34,
       "wickets": 1,
-      "required_run_rate": 7.8,
+      "required_run_rate": 6.6,
       "pitch_condition": "green",
       "batter_form": 0.5682,
       "bowler_fatigue": 0.4797,
@@ -1285,8 +1251,8 @@
     },
     "belief": {
       "yorker": 0.2916666666666667,
-      "bouncer": 0.3333333333333333,
-      "spin": 0.3333333333333333,
+      "bouncer": 0.375,
+      "spin": 0.2916666666666667,
       "slow_ball": 0.041666666666666664
     },
     "history": [
@@ -1309,9 +1275,9 @@
     "step": 21,
     "state": {
       "ball_number": 21,
-      "runs": 36,
+      "runs": 38,
       "wickets": 1,
-      "required_run_rate": 6.0,
+      "required_run_rate": 4.666666666666667,
       "pitch_condition": "green",
       "batter_form": 0.5782,
       "bowler_fatigue": 0.4997,
@@ -1319,8 +1285,8 @@
     },
     "belief": {
       "yorker": 0.28,
-      "bouncer": 0.36,
-      "spin": 0.32,
+      "bouncer": 0.4,
+      "spin": 0.28,
       "slow_ball": 0.04
     },
     "history": [
@@ -1343,9 +1309,9 @@
     "step": 22,
     "state": {
       "ball_number": 22,
-      "runs": 37,
+      "runs": 39,
       "wickets": 1,
-      "required_run_rate": 6.0,
+      "required_run_rate": 4.5,
       "pitch_condition": "green",
       "batter_form": 0.5882,
       "bowler_fatigue": 0.5197,
@@ -1353,8 +1319,8 @@
     },
     "belief": {
       "yorker": 0.3076923076923077,
-      "bouncer": 0.34615384615384615,
-      "spin": 0.3076923076923077,
+      "bouncer": 0.38461538461538464,
+      "spin": 0.2692307692307692,
       "slow_ball": 0.038461538461538464
     },
     "history": [
@@ -1367,8 +1333,8 @@
       "bouncer",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.48333333333333334,
+    "action": "balanced",
+    "reward": 0.13333333333333336,
     "opponent_action": "yorker"
   },
   {
@@ -1377,9 +1343,9 @@
     "step": 23,
     "state": {
       "ball_number": 23,
-      "runs": 39,
+      "runs": 41,
       "wickets": 1,
-      "required_run_rate": 5.142857142857143,
+      "required_run_rate": 3.4285714285714284,
       "pitch_condition": "green",
       "batter_form": 0.5982,
       "bowler_fatigue": 0.5397,
@@ -1387,8 +1353,8 @@
     },
     "belief": {
       "yorker": 0.2962962962962963,
-      "bouncer": 0.3333333333333333,
-      "spin": 0.3333333333333333,
+      "bouncer": 0.4074074074074074,
+      "spin": 0.25925925925925924,
       "slow_ball": 0.037037037037037035
     },
     "history": [
@@ -1399,11 +1365,11 @@
       "bouncer",
       "bouncer",
       "yorker",
-      "spin"
+      "bouncer"
     ],
     "action": "balanced",
-    "reward": 0.16666666666666666,
-    "opponent_action": "spin"
+    "reward": 0.6166666666666666,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -1411,9 +1377,9 @@
     "step": 24,
     "state": {
       "ball_number": 24,
-      "runs": 39,
+      "runs": 41,
       "wickets": 2,
-      "required_run_rate": 6.0,
+      "required_run_rate": 4.0,
       "pitch_condition": "green",
       "batter_form": 0.5782,
       "bowler_fatigue": 0.5597,
@@ -1421,8 +1387,8 @@
     },
     "belief": {
       "yorker": 0.2857142857142857,
-      "bouncer": 0.35714285714285715,
-      "spin": 0.32142857142857145,
+      "bouncer": 0.42857142857142855,
+      "spin": 0.25,
       "slow_ball": 0.03571428571428571
     },
     "history": [
@@ -1432,11 +1398,11 @@
       "bouncer",
       "bouncer",
       "yorker",
-      "spin",
+      "bouncer",
       "bouncer"
     ],
     "action": "balanced",
-    "reward": 0.4,
+    "reward": 0.45,
     "opponent_action": "bouncer"
   },
   {
@@ -1445,9 +1411,9 @@
     "step": 25,
     "state": {
       "ball_number": 25,
-      "runs": 43,
+      "runs": 45,
       "wickets": 2,
-      "required_run_rate": 2.4,
+      "required_run_rate": 0.0,
       "pitch_condition": "green",
       "batter_form": 0.5882,
       "bowler_fatigue": 0.5797,
@@ -1455,8 +1421,8 @@
     },
     "belief": {
       "yorker": 0.27586206896551724,
-      "bouncer": 0.3793103448275862,
-      "spin": 0.3103448275862069,
+      "bouncer": 0.4482758620689655,
+      "spin": 0.2413793103448276,
       "slow_ball": 0.034482758620689655
     },
     "history": [
@@ -1465,47 +1431,13 @@
       "bouncer",
       "bouncer",
       "yorker",
-      "spin",
+      "bouncer",
       "bouncer",
       "bouncer"
     ],
     "action": "aggressive",
     "reward": 0.3333333333333333,
     "opponent_action": "bouncer"
-  },
-  {
-    "task": "adaptive_opponent",
-    "episode": 1,
-    "step": 26,
-    "state": {
-      "ball_number": 26,
-      "runs": 46,
-      "wickets": 2,
-      "required_run_rate": 0.0,
-      "pitch_condition": "green",
-      "batter_form": 0.5982,
-      "bowler_fatigue": 0.5997,
-      "agent_personality": "calm"
-    },
-    "belief": {
-      "yorker": 0.3,
-      "bouncer": 0.36666666666666664,
-      "spin": 0.3,
-      "slow_ball": 0.03333333333333333
-    },
-    "history": [
-      "bouncer",
-      "bouncer",
-      "bouncer",
-      "yorker",
-      "spin",
-      "bouncer",
-      "bouncer",
-      "yorker"
-    ],
-    "action": "balanced",
-    "reward": 0.35,
-    "opponent_action": "yorker"
   },
   {
     "task": "deceptive_opponent",
@@ -1558,8 +1490,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.75,
+    "action": "aggressive",
+    "reward": 0.25,
     "opponent_action": "slow_ball"
   },
   {
@@ -1568,9 +1500,9 @@
     "step": 3,
     "state": {
       "ball_number": 3,
-      "runs": 7,
+      "runs": 6,
       "wickets": 0,
-      "required_run_rate": 8.444444444444445,
+      "required_run_rate": 8.666666666666666,
       "pitch_condition": "dusty",
       "batter_form": 0.5587,
       "bowler_fatigue": 0.2449,
@@ -1587,8 +1519,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "aggressive",
-    "reward": 0.16666666666666666,
+    "action": "defensive",
+    "reward": 0.08333333333333333,
     "opponent_action": "slow_ball"
   },
   {
@@ -1597,9 +1529,9 @@
     "step": 4,
     "state": {
       "ball_number": 4,
-      "runs": 7,
+      "runs": 6,
       "wickets": 1,
-      "required_run_rate": 8.76923076923077,
+      "required_run_rate": 9.0,
       "pitch_condition": "dusty",
       "batter_form": 0.5387,
       "bowler_fatigue": 0.2649,
@@ -1627,9 +1559,9 @@
     "step": 5,
     "state": {
       "ball_number": 5,
-      "runs": 11,
+      "runs": 10,
       "wickets": 1,
-      "required_run_rate": 8.16,
+      "required_run_rate": 8.4,
       "pitch_condition": "dusty",
       "batter_form": 0.5487,
       "bowler_fatigue": 0.2849,
@@ -1648,8 +1580,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.3283333333333333,
+    "action": "balanced",
+    "reward": 0.8283333333333334,
     "opponent_action": "slow_ball"
   },
   {
@@ -1658,9 +1590,9 @@
     "step": 6,
     "state": {
       "ball_number": 6,
-      "runs": 13,
+      "runs": 12,
       "wickets": 1,
-      "required_run_rate": 8.0,
+      "required_run_rate": 8.25,
       "pitch_condition": "dusty",
       "batter_form": 0.5587,
       "bowler_fatigue": 0.3049,
@@ -1680,8 +1612,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.5666666666666667,
+    "action": "balanced",
+    "reward": 0.26666666666666666,
     "opponent_action": "yorker"
   },
   {
@@ -1690,9 +1622,9 @@
     "step": 7,
     "state": {
       "ball_number": 7,
-      "runs": 17,
+      "runs": 15,
       "wickets": 1,
-      "required_run_rate": 7.304347826086956,
+      "required_run_rate": 7.826086956521739,
       "pitch_condition": "dusty",
       "batter_form": 0.5687,
       "bowler_fatigue": 0.3249,
@@ -1713,8 +1645,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "aggressive",
-    "reward": 0.3333333333333333,
+    "action": "defensive",
+    "reward": 0.25,
     "opponent_action": "slow_ball"
   },
   {
@@ -1723,9 +1655,9 @@
     "step": 8,
     "state": {
       "ball_number": 8,
-      "runs": 18,
+      "runs": 17,
       "wickets": 1,
-      "required_run_rate": 7.363636363636363,
+      "required_run_rate": 7.636363636363637,
       "pitch_condition": "dusty",
       "batter_form": 0.5787,
       "bowler_fatigue": 0.3449,
@@ -1747,8 +1679,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.48333333333333334,
+    "action": "balanced",
+    "reward": 0.21666666666666667,
     "opponent_action": "yorker"
   },
   {
@@ -1757,9 +1689,9 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 24,
+      "runs": 23,
       "wickets": 1,
-      "required_run_rate": 6.0,
+      "required_run_rate": 6.285714285714286,
       "pitch_condition": "dusty",
       "batter_form": 0.5887,
       "bowler_fatigue": 0.3649,
@@ -1781,8 +1713,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.45,
+    "action": "aggressive",
+    "reward": 0.5,
     "opponent_action": "slow_ball"
   },
   {
@@ -1791,9 +1723,9 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 28,
+      "runs": 27,
       "wickets": 1,
-      "required_run_rate": 5.1,
+      "required_run_rate": 5.4,
       "pitch_condition": "dusty",
       "batter_form": 0.5987,
       "bowler_fatigue": 0.3849,
@@ -1815,8 +1747,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.3333333333333333,
+    "action": "balanced",
+    "reward": 0.43333333333333335,
     "opponent_action": "yorker"
   },
   {
@@ -1825,9 +1757,9 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 30,
+      "runs": 29,
       "wickets": 1,
-      "required_run_rate": 4.7368421052631575,
+      "required_run_rate": 5.052631578947368,
       "pitch_condition": "dusty",
       "batter_form": 0.6087,
       "bowler_fatigue": 0.4049,
@@ -1859,9 +1791,9 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 36,
+      "runs": 35,
       "wickets": 1,
-      "required_run_rate": 3.0,
+      "required_run_rate": 3.3333333333333335,
       "pitch_condition": "dusty",
       "batter_form": 0.6187,
       "bowler_fatigue": 0.4249,
@@ -1883,8 +1815,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 1.0,
+    "action": "defensive",
+    "reward": 0.5,
     "opponent_action": "slow_ball"
   },
   {
@@ -1893,9 +1825,9 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 37,
+      "runs": 36,
       "wickets": 1,
-      "required_run_rate": 2.823529411764706,
+      "required_run_rate": 3.176470588235294,
       "pitch_condition": "dusty",
       "batter_form": 0.6287,
       "bowler_fatigue": 0.4449,
@@ -1917,8 +1849,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.48333333333333334,
+    "action": "balanced",
+    "reward": 0.18333333333333335,
     "opponent_action": "yorker"
   },
   {
@@ -1927,9 +1859,9 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 37,
+      "runs": 36,
       "wickets": 1,
-      "required_run_rate": 3.0,
+      "required_run_rate": 3.375,
       "pitch_condition": "dusty",
       "batter_form": 0.6087,
       "bowler_fatigue": 0.4649,
@@ -1961,9 +1893,9 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 40,
+      "runs": 38,
       "wickets": 1,
-      "required_run_rate": 2.0,
+      "required_run_rate": 2.8,
       "pitch_condition": "dusty",
       "batter_form": 0.6187,
       "bowler_fatigue": 0.4849,
@@ -1985,8 +1917,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.75,
+    "action": "defensive",
+    "reward": 0.16666666666666666,
     "opponent_action": "slow_ball"
   },
   {
@@ -1995,9 +1927,9 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 46,
+      "runs": 44,
       "wickets": 1,
-      "required_run_rate": 0.0,
+      "required_run_rate": 0.42857142857142855,
       "pitch_condition": "dusty",
       "batter_form": 0.6287,
       "bowler_fatigue": 0.5049,
@@ -2022,6 +1954,74 @@
     "action": "aggressive",
     "reward": 0.5,
     "opponent_action": "yorker"
+  },
+  {
+    "task": "deceptive_opponent",
+    "episode": 2,
+    "step": 17,
+    "state": {
+      "ball_number": 17,
+      "runs": 44,
+      "wickets": 1,
+      "required_run_rate": 0.46153846153846156,
+      "pitch_condition": "dusty",
+      "batter_form": 0.6087,
+      "bowler_fatigue": 0.5249,
+      "agent_personality": "calm"
+    },
+    "belief": {
+      "yorker": 0.3333333333333333,
+      "bouncer": 0.09523809523809523,
+      "spin": 0.047619047619047616,
+      "slow_ball": 0.5238095238095238
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "slow_ball",
+      "yorker",
+      "slow_ball",
+      "slow_ball",
+      "yorker",
+      "bouncer"
+    ],
+    "action": "defensive",
+    "reward": 0.0,
+    "opponent_action": "bouncer"
+  },
+  {
+    "task": "deceptive_opponent",
+    "episode": 2,
+    "step": 18,
+    "state": {
+      "ball_number": 18,
+      "runs": 50,
+      "wickets": 1,
+      "required_run_rate": 0.0,
+      "pitch_condition": "dusty",
+      "batter_form": 0.6187,
+      "bowler_fatigue": 0.5449,
+      "agent_personality": "calm"
+    },
+    "belief": {
+      "yorker": 0.3181818181818182,
+      "bouncer": 0.13636363636363635,
+      "spin": 0.045454545454545456,
+      "slow_ball": 0.5
+    },
+    "history": [
+      "yorker",
+      "slow_ball",
+      "yorker",
+      "slow_ball",
+      "slow_ball",
+      "yorker",
+      "bouncer",
+      "bouncer"
+    ],
+    "action": "defensive",
+    "reward": 0.5,
+    "opponent_action": "bouncer"
   },
   {
     "task": "static_opponent",
@@ -2273,11 +2273,11 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 13,
-      "wickets": 1,
-      "required_run_rate": 9.142857142857142,
+      "runs": 12,
+      "wickets": 2,
+      "required_run_rate": 9.428571428571429,
       "pitch_condition": "flat",
-      "batter_form": 0.5176,
+      "batter_form": 0.4876,
       "bowler_fatigue": 0.2632,
       "agent_personality": "analytical"
     },
@@ -2297,8 +2297,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.04756410256410255,
+    "action": "aggressive",
+    "reward": 0.4642307692307692,
     "opponent_action": "spin"
   },
   {
@@ -2307,9 +2307,9 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 13,
-      "wickets": 1,
-      "required_run_rate": 9.6,
+      "runs": 14,
+      "wickets": 2,
+      "required_run_rate": 9.3,
       "pitch_condition": "flat",
       "batter_form": 0.4976,
       "bowler_fatigue": 0.2832,
@@ -2331,8 +2331,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.4592857142857143,
+    "action": "balanced",
+    "reward": 0.12595238095238095,
     "opponent_action": "spin"
   },
   {
@@ -2341,9 +2341,9 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 13,
-      "wickets": 1,
-      "required_run_rate": 10.105263157894736,
+      "runs": 14,
+      "wickets": 3,
+      "required_run_rate": 9.789473684210526,
       "pitch_condition": "flat",
       "batter_form": 0.4776,
       "bowler_fatigue": 0.3032,
@@ -2365,8 +2365,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.455,
+    "action": "balanced",
+    "reward": 0.0,
     "opponent_action": "spin"
   },
   {
@@ -2375,11 +2375,11 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 19,
-      "wickets": 1,
-      "required_run_rate": 8.666666666666666,
+      "runs": 14,
+      "wickets": 3,
+      "required_run_rate": 10.333333333333334,
       "pitch_condition": "flat",
-      "batter_form": 0.4876,
+      "batter_form": 0.4576,
       "bowler_fatigue": 0.3232,
       "agent_personality": "analytical"
     },
@@ -2399,8 +2399,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.95125,
+    "action": "defensive",
+    "reward": 0.0,
     "opponent_action": "spin"
   },
   {
@@ -2410,10 +2410,10 @@
     "state": {
       "ball_number": 13,
       "runs": 20,
-      "wickets": 1,
+      "wickets": 3,
       "required_run_rate": 8.823529411764707,
       "pitch_condition": "flat",
-      "batter_form": 0.4976,
+      "batter_form": 0.4676,
       "bowler_fatigue": 0.3432,
       "agent_personality": "analytical"
     },
@@ -2433,8 +2433,8 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.03127450980392158,
+    "action": "aggressive",
+    "reward": 0.9479411764705883,
     "opponent_action": "spin"
   },
   {
@@ -2443,11 +2443,11 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 24,
-      "wickets": 1,
-      "required_run_rate": 7.875,
+      "runs": 21,
+      "wickets": 3,
+      "required_run_rate": 9.0,
       "pitch_condition": "flat",
-      "batter_form": 0.5076,
+      "batter_form": 0.4776,
       "bowler_fatigue": 0.3632,
       "agent_personality": "analytical"
     },
@@ -2468,7 +2468,7 @@
       "spin"
     ],
     "action": "balanced",
-    "reward": 0.2783333333333333,
+    "reward": 0.02833333333333333,
     "opponent_action": "spin"
   },
   {
@@ -2478,10 +2478,10 @@
     "state": {
       "ball_number": 15,
       "runs": 25,
-      "wickets": 1,
+      "wickets": 3,
       "required_run_rate": 8.0,
       "pitch_condition": "flat",
-      "batter_form": 0.5176,
+      "batter_form": 0.4876,
       "bowler_fatigue": 0.3832,
       "agent_personality": "analytical"
     },
@@ -2501,8 +2501,8 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.025701754385964934,
+    "action": "balanced",
+    "reward": 0.2757017543859649,
     "opponent_action": "spin"
   },
   {
@@ -2511,11 +2511,11 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 29,
-      "wickets": 1,
-      "required_run_rate": 6.857142857142857,
+      "runs": 27,
+      "wickets": 3,
+      "required_run_rate": 7.714285714285714,
       "pitch_condition": "flat",
-      "batter_form": 0.5276,
+      "batter_form": 0.4976,
       "bowler_fatigue": 0.4032,
       "agent_personality": "analytical"
     },
@@ -2536,7 +2536,7 @@
       "spin"
     ],
     "action": "balanced",
-    "reward": 0.2733333333333333,
+    "reward": 0.10666666666666667,
     "opponent_action": "spin"
   },
   {
@@ -2545,11 +2545,11 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 33,
-      "wickets": 1,
-      "required_run_rate": 5.538461538461538,
+      "runs": 31,
+      "wickets": 3,
+      "required_run_rate": 6.461538461538462,
       "pitch_condition": "flat",
-      "batter_form": 0.5376,
+      "batter_form": 0.5076,
       "bowler_fatigue": 0.4232,
       "agent_personality": "analytical"
     },
@@ -2579,9 +2579,9 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 33,
-      "wickets": 1,
-      "required_run_rate": 6.0,
+      "runs": 35,
+      "wickets": 3,
+      "required_run_rate": 5.0,
       "pitch_condition": "flat",
       "batter_form": 0.5176,
       "bowler_fatigue": 0.4432,
@@ -2603,8 +2603,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.0,
+    "action": "aggressive",
+    "reward": 0.7692424242424243,
     "opponent_action": "spin"
   },
   {
@@ -2613,11 +2613,11 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 37,
-      "wickets": 1,
-      "required_run_rate": 4.363636363636363,
+      "runs": 35,
+      "wickets": 3,
+      "required_run_rate": 5.454545454545454,
       "pitch_condition": "flat",
-      "batter_form": 0.5276,
+      "batter_form": 0.4976,
       "bowler_fatigue": 0.4632,
       "agent_personality": "analytical"
     },
@@ -2638,7 +2638,7 @@
       "spin"
     ],
     "action": "balanced",
-    "reward": 0.267463768115942,
+    "reward": 0.0,
     "opponent_action": "spin"
   },
   {
@@ -2647,11 +2647,11 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 38,
-      "wickets": 1,
-      "required_run_rate": 4.2,
+      "runs": 39,
+      "wickets": 3,
+      "required_run_rate": 3.6,
       "pitch_condition": "flat",
-      "batter_form": 0.5376,
+      "batter_form": 0.5076,
       "bowler_fatigue": 0.4832,
       "agent_personality": "analytical"
     },
@@ -2672,7 +2672,7 @@
       "spin"
     ],
     "action": "aggressive",
-    "reward": 0.5158333333333334,
+    "reward": 0.7658333333333334,
     "opponent_action": "spin"
   },
   {
@@ -2681,11 +2681,11 @@
     "step": 21,
     "state": {
       "ball_number": 21,
-      "runs": 39,
-      "wickets": 1,
-      "required_run_rate": 4.0,
+      "runs": 40,
+      "wickets": 3,
+      "required_run_rate": 3.3333333333333335,
       "pitch_condition": "flat",
-      "batter_form": 0.5476,
+      "batter_form": 0.5176,
       "bowler_fatigue": 0.5032,
       "agent_personality": "analytical"
     },
@@ -2706,7 +2706,7 @@
       "spin"
     ],
     "action": "aggressive",
-    "reward": 0.5143333333333334,
+    "reward": 0.4643333333333333,
     "opponent_action": "spin"
   },
   {
@@ -2715,11 +2715,11 @@
     "step": 22,
     "state": {
       "ball_number": 22,
-      "runs": 41,
-      "wickets": 1,
-      "required_run_rate": 3.0,
+      "runs": 40,
+      "wickets": 3,
+      "required_run_rate": 3.75,
       "pitch_condition": "flat",
-      "batter_form": 0.5576,
+      "batter_form": 0.4976,
       "bowler_fatigue": 0.5232,
       "agent_personality": "analytical"
     },
@@ -2740,7 +2740,7 @@
       "spin"
     ],
     "action": "defensive",
-    "reward": 0.09628205128205129,
+    "reward": 0.0,
     "opponent_action": "spin"
   },
   {
@@ -2749,11 +2749,11 @@
     "step": 23,
     "state": {
       "ball_number": 23,
-      "runs": 44,
-      "wickets": 1,
-      "required_run_rate": 0.8571428571428571,
+      "runs": 43,
+      "wickets": 3,
+      "required_run_rate": 1.7142857142857142,
       "pitch_condition": "flat",
-      "batter_form": 0.5676,
+      "batter_form": 0.5076,
       "bowler_fatigue": 0.5432,
       "agent_personality": "analytical"
     },
@@ -2783,11 +2783,11 @@
     "step": 24,
     "state": {
       "ball_number": 24,
-      "runs": 44,
-      "wickets": 1,
-      "required_run_rate": 1.0,
+      "runs": 46,
+      "wickets": 3,
+      "required_run_rate": 0.0,
       "pitch_condition": "flat",
-      "batter_form": 0.5476,
+      "batter_form": 0.5176,
       "bowler_fatigue": 0.5632,
       "agent_personality": "analytical"
     },
@@ -2808,41 +2808,7 @@
       "spin"
     ],
     "action": "aggressive",
-    "reward": 0.37714285714285717,
-    "opponent_action": "spin"
-  },
-  {
-    "task": "static_opponent",
-    "episode": 3,
-    "step": 25,
-    "state": {
-      "ball_number": 25,
-      "runs": 46,
-      "wickets": 1,
-      "required_run_rate": 0.0,
-      "pitch_condition": "flat",
-      "batter_form": 0.5576,
-      "bowler_fatigue": 0.5832,
-      "agent_personality": "analytical"
-    },
-    "belief": {
-      "yorker": 0.034482758620689655,
-      "bouncer": 0.034482758620689655,
-      "spin": 0.896551724137931,
-      "slow_ball": 0.034482758620689655
-    },
-    "history": [
-      "spin",
-      "spin",
-      "spin",
-      "spin",
-      "spin",
-      "spin",
-      "spin",
-      "spin"
-    ],
-    "action": "balanced",
-    "reward": 0.09270114942528736,
+    "reward": 0.6271428571428571,
     "opponent_action": "spin"
   },
   {
@@ -2868,8 +2834,8 @@
     "history": [
       "slow_ball"
     ],
-    "action": "aggressive",
-    "reward": 0.16666666666666666,
+    "action": "balanced",
+    "reward": 0.5666666666666667,
     "opponent_action": "slow_ball"
   },
   {
@@ -2887,18 +2853,18 @@
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.3333333333333333,
-      "bouncer": 0.16666666666666666,
+      "yorker": 0.16666666666666666,
+      "bouncer": 0.3333333333333333,
       "spin": 0.16666666666666666,
       "slow_ball": 0.3333333333333333
     },
     "history": [
       "slow_ball",
-      "yorker"
+      "bouncer"
     ],
-    "action": "aggressive",
-    "reward": 0.3333333333333333,
-    "opponent_action": "yorker"
+    "action": "balanced",
+    "reward": 0.8333333333333334,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -2906,28 +2872,28 @@
     "step": 3,
     "state": {
       "ball_number": 3,
-      "runs": 7,
+      "runs": 6,
       "wickets": 0,
-      "required_run_rate": 8.444444444444445,
+      "required_run_rate": 8.666666666666666,
       "pitch_condition": "flat",
-      "batter_form": 0.4119,
+      "batter_form": 0.3819,
       "bowler_fatigue": 0.2178,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.42857142857142855,
-      "bouncer": 0.14285714285714285,
+      "yorker": 0.14285714285714285,
+      "bouncer": 0.42857142857142855,
       "spin": 0.14285714285714285,
       "slow_ball": 0.2857142857142857
     },
     "history": [
       "slow_ball",
-      "yorker",
-      "yorker"
+      "bouncer",
+      "bouncer"
     ],
-    "action": "aggressive",
-    "reward": 0.08333333333333333,
-    "opponent_action": "yorker"
+    "action": "balanced",
+    "reward": 0.4,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -2935,29 +2901,29 @@
     "step": 4,
     "state": {
       "ball_number": 4,
-      "runs": 10,
+      "runs": 9,
       "wickets": 0,
-      "required_run_rate": 8.076923076923077,
+      "required_run_rate": 8.307692307692308,
       "pitch_condition": "flat",
-      "batter_form": 0.4219,
+      "batter_form": 0.3919,
       "bowler_fatigue": 0.2378,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.5,
-      "bouncer": 0.125,
+      "yorker": 0.125,
+      "bouncer": 0.5,
       "spin": 0.125,
       "slow_ball": 0.25
     },
     "history": [
       "slow_ball",
-      "yorker",
-      "yorker",
-      "yorker"
+      "bouncer",
+      "bouncer",
+      "bouncer"
     ],
     "action": "balanced",
-    "reward": 0.25,
-    "opponent_action": "yorker"
+    "reward": 0.7,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -2969,25 +2935,25 @@
       "wickets": 0,
       "required_run_rate": 7.68,
       "pitch_condition": "flat",
-      "batter_form": 0.4319,
+      "batter_form": 0.4019,
       "bowler_fatigue": 0.2578,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.4444444444444444,
-      "bouncer": 0.2222222222222222,
+      "yorker": 0.1111111111111111,
+      "bouncer": 0.5555555555555556,
       "spin": 0.1111111111111111,
       "slow_ball": 0.2222222222222222
     },
     "history": [
       "slow_ball",
-      "yorker",
-      "yorker",
-      "yorker",
+      "bouncer",
+      "bouncer",
+      "bouncer",
       "bouncer"
     ],
-    "action": "defensive",
-    "reward": 0.35,
+    "action": "balanced",
+    "reward": 0.7333333333333334,
     "opponent_action": "bouncer"
   },
   {
@@ -2996,31 +2962,31 @@
     "step": 6,
     "state": {
       "ball_number": 6,
-      "runs": 15,
+      "runs": 14,
       "wickets": 0,
-      "required_run_rate": 7.5,
+      "required_run_rate": 7.75,
       "pitch_condition": "flat",
-      "batter_form": 0.4419,
+      "batter_form": 0.4119,
       "bowler_fatigue": 0.2778,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.4,
-      "bouncer": 0.2,
-      "spin": 0.2,
+      "yorker": 0.1,
+      "bouncer": 0.6,
+      "spin": 0.1,
       "slow_ball": 0.2
     },
     "history": [
       "slow_ball",
-      "yorker",
-      "yorker",
-      "yorker",
       "bouncer",
-      "spin"
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer"
     ],
-    "action": "aggressive",
-    "reward": 0.5666666666666667,
-    "opponent_action": "spin"
+    "action": "balanced",
+    "reward": 0.4833333333333334,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -3032,28 +2998,28 @@
       "wickets": 0,
       "required_run_rate": 7.043478260869565,
       "pitch_condition": "flat",
-      "batter_form": 0.4519,
+      "batter_form": 0.4219,
       "bowler_fatigue": 0.2978,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.45454545454545453,
-      "bouncer": 0.18181818181818182,
-      "spin": 0.18181818181818182,
+      "yorker": 0.09090909090909091,
+      "bouncer": 0.6363636363636364,
+      "spin": 0.09090909090909091,
       "slow_ball": 0.18181818181818182
     },
     "history": [
       "slow_ball",
-      "yorker",
-      "yorker",
-      "yorker",
       "bouncer",
-      "spin",
-      "yorker"
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer"
     ],
     "action": "aggressive",
-    "reward": 0.25,
-    "opponent_action": "yorker"
+    "reward": 0.3333333333333333,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -3065,28 +3031,28 @@
       "wickets": 0,
       "required_run_rate": 7.363636363636363,
       "pitch_condition": "flat",
-      "batter_form": 0.4319,
+      "batter_form": 0.4019,
       "bowler_fatigue": 0.3178,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.5,
-      "bouncer": 0.16666666666666666,
-      "spin": 0.16666666666666666,
+      "yorker": 0.16666666666666666,
+      "bouncer": 0.5833333333333334,
+      "spin": 0.08333333333333333,
       "slow_ball": 0.16666666666666666
     },
     "history": [
       "slow_ball",
-      "yorker",
-      "yorker",
-      "yorker",
       "bouncer",
-      "spin",
-      "yorker",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.0,
+    "action": "defensive",
+    "reward": 0.4,
     "opponent_action": "yorker"
   },
   {
@@ -3099,29 +3065,29 @@
       "wickets": 0,
       "required_run_rate": 6.571428571428571,
       "pitch_condition": "flat",
-      "batter_form": 0.4419,
+      "batter_form": 0.4119,
       "bowler_fatigue": 0.3378,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.5384615384615384,
-      "bouncer": 0.15384615384615385,
+      "yorker": 0.15384615384615385,
+      "bouncer": 0.5384615384615384,
       "spin": 0.15384615384615385,
       "slow_ball": 0.15384615384615385
     },
     "history": [
-      "yorker",
-      "yorker",
-      "yorker",
       "bouncer",
-      "spin",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer",
       "yorker",
-      "yorker",
-      "yorker"
+      "spin"
     ],
-    "action": "balanced",
+    "action": "defensive",
     "reward": 0.3333333333333333,
-    "opponent_action": "yorker"
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -3133,29 +3099,29 @@
       "wickets": 0,
       "required_run_rate": 6.6,
       "pitch_condition": "flat",
-      "batter_form": 0.4519,
+      "batter_form": 0.4219,
       "bowler_fatigue": 0.3578,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.5,
-      "bouncer": 0.21428571428571427,
-      "spin": 0.14285714285714285,
+      "yorker": 0.14285714285714285,
+      "bouncer": 0.5,
+      "spin": 0.21428571428571427,
       "slow_ball": 0.14285714285714285
     },
     "history": [
-      "yorker",
-      "yorker",
       "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "yorker",
       "spin",
-      "yorker",
-      "yorker",
-      "yorker",
-      "bouncer"
+      "spin"
     ],
     "action": "balanced",
-    "reward": 0.48333333333333334,
-    "opponent_action": "bouncer"
+    "reward": 0.18333333333333335,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -3164,30 +3130,30 @@
     "state": {
       "ball_number": 11,
       "runs": 23,
-      "wickets": 1,
+      "wickets": 0,
       "required_run_rate": 6.947368421052632,
       "pitch_condition": "flat",
-      "batter_form": 0.4319,
+      "batter_form": 0.4019,
       "bowler_fatigue": 0.3778,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.4666666666666667,
-      "bouncer": 0.26666666666666666,
-      "spin": 0.13333333333333333,
+      "yorker": 0.13333333333333333,
+      "bouncer": 0.5333333333333333,
+      "spin": 0.2,
       "slow_ball": 0.13333333333333333
     },
     "history": [
-      "yorker",
       "bouncer",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "yorker",
       "spin",
-      "yorker",
-      "yorker",
-      "yorker",
-      "bouncer",
+      "spin",
       "bouncer"
     ],
-    "action": "aggressive",
+    "action": "defensive",
     "reward": 0.0,
     "opponent_action": "bouncer"
   },
@@ -3197,33 +3163,33 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 29,
-      "wickets": 1,
-      "required_run_rate": 5.333333333333333,
+      "runs": 23,
+      "wickets": 0,
+      "required_run_rate": 7.333333333333333,
       "pitch_condition": "flat",
-      "batter_form": 0.4419,
+      "batter_form": 0.3819,
       "bowler_fatigue": 0.3978,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.5,
-      "bouncer": 0.25,
-      "spin": 0.125,
+      "yorker": 0.125,
+      "bouncer": 0.5,
+      "spin": 0.25,
       "slow_ball": 0.125
     },
     "history": [
       "bouncer",
+      "bouncer",
+      "bouncer",
+      "yorker",
       "spin",
-      "yorker",
-      "yorker",
-      "yorker",
+      "spin",
       "bouncer",
-      "bouncer",
-      "yorker"
+      "spin"
     ],
     "action": "defensive",
-    "reward": 1.0,
-    "opponent_action": "yorker"
+    "reward": 0.0,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -3231,32 +3197,32 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 35,
-      "wickets": 1,
-      "required_run_rate": 3.5294117647058822,
+      "runs": 25,
+      "wickets": 0,
+      "required_run_rate": 7.0588235294117645,
       "pitch_condition": "flat",
-      "batter_form": 0.4519,
+      "batter_form": 0.3919,
       "bowler_fatigue": 0.4178,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.47058823529411764,
-      "bouncer": 0.23529411764705882,
-      "spin": 0.17647058823529413,
+      "yorker": 0.11764705882352941,
+      "bouncer": 0.47058823529411764,
+      "spin": 0.29411764705882354,
       "slow_ball": 0.11764705882352941
     },
     "history": [
+      "bouncer",
+      "bouncer",
+      "yorker",
       "spin",
-      "yorker",
-      "yorker",
-      "yorker",
+      "spin",
       "bouncer",
-      "bouncer",
-      "yorker",
+      "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.5,
+    "action": "defensive",
+    "reward": 0.11666666666666665,
     "opponent_action": "spin"
   },
   {
@@ -3265,33 +3231,33 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 36,
-      "wickets": 1,
-      "required_run_rate": 3.375,
+      "runs": 25,
+      "wickets": 0,
+      "required_run_rate": 7.5,
       "pitch_condition": "flat",
-      "batter_form": 0.4619,
+      "batter_form": 0.3719,
       "bowler_fatigue": 0.4378,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.4444444444444444,
-      "bouncer": 0.2777777777777778,
-      "spin": 0.16666666666666666,
+      "yorker": 0.1111111111111111,
+      "bouncer": 0.4444444444444444,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.1111111111111111
     },
     "history": [
-      "yorker",
-      "yorker",
-      "yorker",
-      "bouncer",
       "bouncer",
       "yorker",
       "spin",
-      "bouncer"
+      "spin",
+      "bouncer",
+      "spin",
+      "spin",
+      "spin"
     ],
-    "action": "balanced",
-    "reward": 0.48333333333333334,
-    "opponent_action": "bouncer"
+    "action": "defensive",
+    "reward": 0.0,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -3299,33 +3265,33 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 36,
-      "wickets": 2,
-      "required_run_rate": 3.6,
+      "runs": 27,
+      "wickets": 0,
+      "required_run_rate": 7.2,
       "pitch_condition": "flat",
-      "batter_form": 0.4419,
+      "batter_form": 0.3819,
       "bowler_fatigue": 0.4578,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.42105263157894735,
-      "bouncer": 0.3157894736842105,
-      "spin": 0.15789473684210525,
+      "yorker": 0.10526315789473684,
+      "bouncer": 0.42105263157894735,
+      "spin": 0.3684210526315789,
       "slow_ball": 0.10526315789473684
     },
     "history": [
       "yorker",
-      "yorker",
-      "bouncer",
-      "bouncer",
-      "yorker",
+      "spin",
       "spin",
       "bouncer",
-      "bouncer"
+      "spin",
+      "spin",
+      "spin",
+      "spin"
     ],
-    "action": "defensive",
-    "reward": 0.1,
-    "opponent_action": "bouncer"
+    "action": "aggressive",
+    "reward": 0.5666666666666667,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -3333,33 +3299,33 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 37,
-      "wickets": 2,
-      "required_run_rate": 3.4285714285714284,
+      "runs": 27,
+      "wickets": 0,
+      "required_run_rate": 7.714285714285714,
       "pitch_condition": "flat",
-      "batter_form": 0.4519,
+      "batter_form": 0.3619,
       "bowler_fatigue": 0.4778,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.4,
-      "bouncer": 0.3,
-      "spin": 0.2,
+      "yorker": 0.15,
+      "bouncer": 0.4,
+      "spin": 0.35,
       "slow_ball": 0.1
     },
     "history": [
-      "yorker",
-      "bouncer",
-      "bouncer",
-      "yorker",
+      "spin",
       "spin",
       "bouncer",
-      "bouncer",
-      "spin"
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "yorker"
     ],
-    "action": "balanced",
-    "reward": 0.08333333333333333,
-    "opponent_action": "spin"
+    "action": "aggressive",
+    "reward": 0.0,
+    "opponent_action": "yorker"
   },
   {
     "task": "adaptive_opponent",
@@ -3367,33 +3333,33 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 37,
-      "wickets": 2,
-      "required_run_rate": 3.6923076923076925,
+      "runs": 30,
+      "wickets": 0,
+      "required_run_rate": 6.923076923076923,
       "pitch_condition": "flat",
-      "batter_form": 0.4319,
+      "batter_form": 0.3719,
       "bowler_fatigue": 0.4978,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.38095238095238093,
-      "bouncer": 0.3333333333333333,
-      "spin": 0.19047619047619047,
+      "yorker": 0.19047619047619047,
+      "bouncer": 0.38095238095238093,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.09523809523809523
     },
     "history": [
+      "spin",
       "bouncer",
-      "bouncer",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
       "yorker",
-      "spin",
-      "bouncer",
-      "bouncer",
-      "spin",
-      "bouncer"
+      "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.1,
-    "opponent_action": "bouncer"
+    "action": "aggressive",
+    "reward": 0.25,
+    "opponent_action": "yorker"
   },
   {
     "task": "adaptive_opponent",
@@ -3401,33 +3367,33 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 41,
-      "wickets": 2,
-      "required_run_rate": 2.0,
+      "runs": 32,
+      "wickets": 0,
+      "required_run_rate": 6.5,
       "pitch_condition": "flat",
-      "batter_form": 0.4419,
+      "batter_form": 0.3819,
       "bowler_fatigue": 0.5178,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.36363636363636365,
-      "bouncer": 0.3181818181818182,
-      "spin": 0.22727272727272727,
+      "yorker": 0.22727272727272727,
+      "bouncer": 0.36363636363636365,
+      "spin": 0.3181818181818182,
       "slow_ball": 0.09090909090909091
     },
     "history": [
       "bouncer",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
       "yorker",
-      "spin",
-      "bouncer",
-      "bouncer",
-      "spin",
-      "bouncer",
-      "spin"
+      "yorker",
+      "yorker"
     ],
     "action": "aggressive",
-    "reward": 0.7333333333333334,
-    "opponent_action": "spin"
+    "reward": 0.11666666666666665,
+    "opponent_action": "yorker"
   },
   {
     "task": "adaptive_opponent",
@@ -3435,32 +3401,32 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 43,
-      "wickets": 2,
-      "required_run_rate": 1.0909090909090908,
+      "runs": 33,
+      "wickets": 0,
+      "required_run_rate": 6.545454545454546,
       "pitch_condition": "flat",
-      "batter_form": 0.4519,
+      "batter_form": 0.3919,
       "bowler_fatigue": 0.5378,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.391304347826087,
-      "bouncer": 0.30434782608695654,
-      "spin": 0.21739130434782608,
+      "yorker": 0.2608695652173913,
+      "bouncer": 0.34782608695652173,
+      "spin": 0.30434782608695654,
       "slow_ball": 0.08695652173913043
     },
     "history": [
+      "spin",
+      "spin",
+      "spin",
+      "spin",
       "yorker",
-      "spin",
-      "bouncer",
-      "bouncer",
-      "spin",
-      "bouncer",
-      "spin",
+      "yorker",
+      "yorker",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.16666666666666666,
+    "action": "defensive",
+    "reward": 0.48333333333333334,
     "opponent_action": "yorker"
   },
   {
@@ -3469,33 +3435,305 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 45,
-      "wickets": 2,
-      "required_run_rate": 0.0,
+      "runs": 33,
+      "wickets": 0,
+      "required_run_rate": 7.2,
       "pitch_condition": "flat",
-      "batter_form": 0.4619,
+      "batter_form": 0.3719,
       "bowler_fatigue": 0.5578,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.4166666666666667,
-      "bouncer": 0.2916666666666667,
-      "spin": 0.20833333333333334,
+      "yorker": 0.25,
+      "bouncer": 0.3333333333333333,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.08333333333333333
     },
     "history": [
       "spin",
-      "bouncer",
-      "bouncer",
       "spin",
-      "bouncer",
       "spin",
       "yorker",
-      "yorker"
+      "yorker",
+      "yorker",
+      "yorker",
+      "spin"
     ],
-    "action": "aggressive",
+    "action": "balanced",
+    "reward": 0.0,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 4,
+    "step": 21,
+    "state": {
+      "ball_number": 21,
+      "runs": 35,
+      "wickets": 0,
+      "required_run_rate": 6.666666666666667,
+      "pitch_condition": "flat",
+      "batter_form": 0.3819,
+      "bowler_fatigue": 0.5778,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.24,
+      "bouncer": 0.36,
+      "spin": 0.32,
+      "slow_ball": 0.08
+    },
+    "history": [
+      "spin",
+      "spin",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "spin",
+      "bouncer"
+    ],
+    "action": "defensive",
     "reward": 0.16666666666666666,
-    "opponent_action": "yorker"
+    "opponent_action": "bouncer"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 4,
+    "step": 22,
+    "state": {
+      "ball_number": 22,
+      "runs": 35,
+      "wickets": 1,
+      "required_run_rate": 7.5,
+      "pitch_condition": "flat",
+      "batter_form": 0.3619,
+      "bowler_fatigue": 0.5978,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.23076923076923078,
+      "bouncer": 0.34615384615384615,
+      "spin": 0.34615384615384615,
+      "slow_ball": 0.07692307692307693
+    },
+    "history": [
+      "spin",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "spin",
+      "bouncer",
+      "spin"
+    ],
+    "action": "balanced",
+    "reward": 0.1,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 4,
+    "step": 23,
+    "state": {
+      "ball_number": 23,
+      "runs": 39,
+      "wickets": 1,
+      "required_run_rate": 5.142857142857143,
+      "pitch_condition": "flat",
+      "batter_form": 0.3719,
+      "bowler_fatigue": 0.6178,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.2222222222222222,
+      "bouncer": 0.37037037037037035,
+      "spin": 0.3333333333333333,
+      "slow_ball": 0.07407407407407407
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "spin",
+      "bouncer",
+      "spin",
+      "bouncer"
+    ],
+    "action": "balanced",
+    "reward": 0.7333333333333334,
+    "opponent_action": "bouncer"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 4,
+    "step": 24,
+    "state": {
+      "ball_number": 24,
+      "runs": 41,
+      "wickets": 1,
+      "required_run_rate": 4.0,
+      "pitch_condition": "flat",
+      "batter_form": 0.3819,
+      "bowler_fatigue": 0.6378,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.21428571428571427,
+      "bouncer": 0.39285714285714285,
+      "spin": 0.32142857142857145,
+      "slow_ball": 0.07142857142857142
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "yorker",
+      "spin",
+      "bouncer",
+      "spin",
+      "bouncer",
+      "bouncer"
+    ],
+    "action": "balanced",
+    "reward": 0.6166666666666666,
+    "opponent_action": "bouncer"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 4,
+    "step": 25,
+    "state": {
+      "ball_number": 25,
+      "runs": 41,
+      "wickets": 1,
+      "required_run_rate": 4.8,
+      "pitch_condition": "flat",
+      "batter_form": 0.3619,
+      "bowler_fatigue": 0.6578,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.20689655172413793,
+      "bouncer": 0.41379310344827586,
+      "spin": 0.3103448275862069,
+      "slow_ball": 0.06896551724137931
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "spin",
+      "bouncer",
+      "spin",
+      "bouncer",
+      "bouncer",
+      "bouncer"
+    ],
+    "action": "defensive",
+    "reward": 0.0,
+    "opponent_action": "bouncer"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 4,
+    "step": 26,
+    "state": {
+      "ball_number": 26,
+      "runs": 42,
+      "wickets": 1,
+      "required_run_rate": 4.5,
+      "pitch_condition": "flat",
+      "batter_form": 0.3719,
+      "bowler_fatigue": 0.6778,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.2,
+      "bouncer": 0.4,
+      "spin": 0.3333333333333333,
+      "slow_ball": 0.06666666666666667
+    },
+    "history": [
+      "yorker",
+      "spin",
+      "bouncer",
+      "spin",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "spin"
+    ],
+    "action": "defensive",
+    "reward": 0.08333333333333333,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 4,
+    "step": 27,
+    "state": {
+      "ball_number": 27,
+      "runs": 44,
+      "wickets": 1,
+      "required_run_rate": 2.0,
+      "pitch_condition": "flat",
+      "batter_form": 0.3819,
+      "bowler_fatigue": 0.6978,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.1935483870967742,
+      "bouncer": 0.3870967741935484,
+      "spin": 0.3548387096774194,
+      "slow_ball": 0.06451612903225806
+    },
+    "history": [
+      "spin",
+      "bouncer",
+      "spin",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "spin",
+      "spin"
+    ],
+    "action": "balanced",
+    "reward": 0.26666666666666666,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 4,
+    "step": 28,
+    "state": {
+      "ball_number": 28,
+      "runs": 48,
+      "wickets": 1,
+      "required_run_rate": 0.0,
+      "pitch_condition": "flat",
+      "batter_form": 0.3919,
+      "bowler_fatigue": 0.7178,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.1875,
+      "bouncer": 0.40625,
+      "spin": 0.34375,
+      "slow_ball": 0.0625
+    },
+    "history": [
+      "bouncer",
+      "spin",
+      "bouncer",
+      "bouncer",
+      "bouncer",
+      "spin",
+      "spin",
+      "bouncer"
+    ],
+    "action": "defensive",
+    "reward": 0.3333333333333333,
+    "opponent_action": "bouncer"
   },
   {
     "task": "deceptive_opponent",
@@ -3713,9 +3951,9 @@
     "step": 8,
     "state": {
       "ball_number": 8,
-      "runs": 16,
+      "runs": 15,
       "wickets": 1,
-      "required_run_rate": 7.909090909090909,
+      "required_run_rate": 8.181818181818182,
       "pitch_condition": "flat",
       "batter_form": 0.6369,
       "bowler_fatigue": 0.2699,
@@ -3737,8 +3975,8 @@
       "slow_ball",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.5666666666666667,
+    "action": "defensive",
+    "reward": 0.08333333333333333,
     "opponent_action": "spin"
   },
   {
@@ -3747,11 +3985,11 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 17,
+      "runs": 15,
       "wickets": 1,
-      "required_run_rate": 8.0,
+      "required_run_rate": 8.571428571428571,
       "pitch_condition": "flat",
-      "batter_form": 0.6469,
+      "batter_form": 0.6169,
       "bowler_fatigue": 0.2899,
       "agent_personality": "analytical"
     },
@@ -3771,8 +4009,8 @@
       "spin",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.5833333333333334,
+    "action": "defensive",
+    "reward": 0.0,
     "opponent_action": "slow_ball"
   },
   {
@@ -3781,11 +4019,11 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 17,
+      "runs": 15,
       "wickets": 1,
-      "required_run_rate": 8.4,
+      "required_run_rate": 9.0,
       "pitch_condition": "flat",
-      "batter_form": 0.6269,
+      "batter_form": 0.5969,
       "bowler_fatigue": 0.3099,
       "agent_personality": "analytical"
     },
@@ -3815,11 +4053,11 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 21,
+      "runs": 19,
       "wickets": 1,
-      "required_run_rate": 7.578947368421052,
+      "required_run_rate": 8.210526315789474,
       "pitch_condition": "flat",
-      "batter_form": 0.6369,
+      "batter_form": 0.6069,
       "bowler_fatigue": 0.3299,
       "agent_personality": "analytical"
     },
@@ -3849,11 +4087,11 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 23,
+      "runs": 21,
       "wickets": 1,
-      "required_run_rate": 7.333333333333333,
+      "required_run_rate": 8.0,
       "pitch_condition": "flat",
-      "batter_form": 0.6469,
+      "batter_form": 0.6169,
       "bowler_fatigue": 0.3499,
       "agent_personality": "analytical"
     },
@@ -3883,11 +4121,11 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 27,
+      "runs": 25,
       "wickets": 1,
-      "required_run_rate": 6.352941176470588,
+      "required_run_rate": 7.0588235294117645,
       "pitch_condition": "flat",
-      "batter_form": 0.6569,
+      "batter_form": 0.6269,
       "bowler_fatigue": 0.3699,
       "agent_personality": "analytical"
     },
@@ -3908,7 +4146,7 @@
       "yorker"
     ],
     "action": "balanced",
-    "reward": 0.38333333333333336,
+    "reward": 0.43333333333333335,
     "opponent_action": "yorker"
   },
   {
@@ -3917,11 +4155,11 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 29,
+      "runs": 27,
       "wickets": 1,
-      "required_run_rate": 6.0,
+      "required_run_rate": 6.75,
       "pitch_condition": "flat",
-      "batter_form": 0.6669,
+      "batter_form": 0.6369,
       "bowler_fatigue": 0.3899,
       "agent_personality": "analytical"
     },
@@ -3951,11 +4189,11 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 33,
+      "runs": 31,
       "wickets": 1,
-      "required_run_rate": 4.8,
+      "required_run_rate": 5.6,
       "pitch_condition": "flat",
-      "batter_form": 0.6769,
+      "batter_form": 0.6469,
       "bowler_fatigue": 0.4099,
       "agent_personality": "analytical"
     },
@@ -3985,11 +4223,11 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 37,
+      "runs": 35,
       "wickets": 1,
-      "required_run_rate": 3.4285714285714284,
+      "required_run_rate": 4.285714285714286,
       "pitch_condition": "flat",
-      "batter_form": 0.6869,
+      "batter_form": 0.6569,
       "bowler_fatigue": 0.4299,
       "agent_personality": "analytical"
     },
@@ -4019,11 +4257,11 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 40,
+      "runs": 38,
       "wickets": 1,
-      "required_run_rate": 2.3076923076923075,
+      "required_run_rate": 3.230769230769231,
       "pitch_condition": "flat",
-      "batter_form": 0.6969,
+      "batter_form": 0.6669,
       "bowler_fatigue": 0.4499,
       "agent_personality": "analytical"
     },
@@ -4053,11 +4291,11 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 41,
+      "runs": 39,
       "wickets": 1,
-      "required_run_rate": 2.0,
+      "required_run_rate": 3.0,
       "pitch_condition": "flat",
-      "batter_form": 0.7069,
+      "batter_form": 0.6769,
       "bowler_fatigue": 0.4699,
       "agent_personality": "analytical"
     },
@@ -4077,8 +4315,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.5833333333333334,
+    "action": "defensive",
+    "reward": 0.08333333333333333,
     "opponent_action": "slow_ball"
   },
   {
@@ -4087,11 +4325,11 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 44,
+      "runs": 41,
       "wickets": 1,
-      "required_run_rate": 0.5454545454545454,
+      "required_run_rate": 2.1818181818181817,
       "pitch_condition": "flat",
-      "batter_form": 0.7169,
+      "batter_form": 0.6869,
       "bowler_fatigue": 0.4899,
       "agent_personality": "analytical"
     },
@@ -4111,8 +4349,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.25,
+    "action": "balanced",
+    "reward": 0.26666666666666666,
     "opponent_action": "yorker"
   },
   {
@@ -4121,11 +4359,11 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 48,
+      "runs": 45,
       "wickets": 1,
       "required_run_rate": 0.0,
       "pitch_condition": "flat",
-      "batter_form": 0.7269,
+      "batter_form": 0.6969,
       "bowler_fatigue": 0.5099,
       "agent_personality": "analytical"
     },
@@ -4172,7 +4410,7 @@
     "history": [
       "spin"
     ],
-    "action": "defensive",
+    "action": "balanced",
     "reward": 0.08333333333333333,
     "opponent_action": "spin"
   },
@@ -4229,7 +4467,7 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
+    "action": "balanced",
     "reward": 0.16666666666666666,
     "opponent_action": "spin"
   },
@@ -4259,8 +4497,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.08333333333333333,
+    "action": "aggressive",
+    "reward": 0.5833333333333334,
     "opponent_action": "spin"
   },
   {
@@ -4322,8 +4560,8 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.06833333333333336,
+    "action": "aggressive",
+    "reward": 0.5683333333333334,
     "opponent_action": "spin"
   },
   {
@@ -4355,7 +4593,7 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
+    "action": "balanced",
     "reward": 0.4768181818181818,
     "opponent_action": "spin"
   },
@@ -4365,9 +4603,9 @@
     "step": 8,
     "state": {
       "ball_number": 8,
-      "runs": 15,
+      "runs": 14,
       "wickets": 1,
-      "required_run_rate": 8.181818181818182,
+      "required_run_rate": 8.454545454545455,
       "pitch_condition": "flat",
       "batter_form": 0.3868,
       "bowler_fatigue": 0.2766,
@@ -4389,8 +4627,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.8033333333333333,
+    "action": "defensive",
+    "reward": 0.22,
     "opponent_action": "spin"
   },
   {
@@ -4399,9 +4637,9 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 15,
+      "runs": 14,
       "wickets": 1,
-      "required_run_rate": 8.571428571428571,
+      "required_run_rate": 8.857142857142858,
       "pitch_condition": "flat",
       "batter_form": 0.3668,
       "bowler_fatigue": 0.2966,
@@ -4423,7 +4661,7 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
+    "action": "balanced",
     "reward": 0.0,
     "opponent_action": "spin"
   },
@@ -4433,9 +4671,9 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 21,
+      "runs": 20,
       "wickets": 1,
-      "required_run_rate": 7.2,
+      "required_run_rate": 7.5,
       "pitch_condition": "flat",
       "batter_form": 0.3768,
       "bowler_fatigue": 0.3166,
@@ -4457,8 +4695,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.9592857142857143,
+    "action": "defensive",
+    "reward": 0.4592857142857143,
     "opponent_action": "spin"
   },
   {
@@ -4467,9 +4705,9 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 21,
+      "runs": 20,
       "wickets": 1,
-      "required_run_rate": 7.578947368421052,
+      "required_run_rate": 7.894736842105263,
       "pitch_condition": "flat",
       "batter_form": 0.3568,
       "bowler_fatigue": 0.3366,
@@ -4501,9 +4739,9 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 25,
+      "runs": 24,
       "wickets": 1,
-      "required_run_rate": 6.666666666666667,
+      "required_run_rate": 7.0,
       "pitch_condition": "flat",
       "batter_form": 0.3668,
       "bowler_fatigue": 0.3566,
@@ -4525,8 +4763,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.2845833333333333,
+    "action": "defensive",
+    "reward": 0.23458333333333334,
     "opponent_action": "spin"
   },
   {
@@ -4535,9 +4773,9 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 27,
+      "runs": 26,
       "wickets": 1,
-      "required_run_rate": 6.352941176470588,
+      "required_run_rate": 6.705882352941177,
       "pitch_condition": "flat",
       "batter_form": 0.3768,
       "bowler_fatigue": 0.3766,
@@ -4569,9 +4807,9 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 29,
+      "runs": 28,
       "wickets": 1,
-      "required_run_rate": 6.0,
+      "required_run_rate": 6.375,
       "pitch_condition": "flat",
       "batter_form": 0.3868,
       "bowler_fatigue": 0.3966,
@@ -4603,9 +4841,9 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 31,
+      "runs": 29,
       "wickets": 1,
-      "required_run_rate": 5.6,
+      "required_run_rate": 6.4,
       "pitch_condition": "flat",
       "batter_form": 0.3968,
       "bowler_fatigue": 0.4166,
@@ -4627,8 +4865,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.6090350877192983,
+    "action": "balanced",
+    "reward": 0.025701754385964934,
     "opponent_action": "spin"
   },
   {
@@ -4637,9 +4875,9 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 34,
+      "runs": 31,
       "wickets": 1,
-      "required_run_rate": 4.714285714285714,
+      "required_run_rate": 6.0,
       "pitch_condition": "flat",
       "batter_form": 0.4068,
       "bowler_fatigue": 0.4366,
@@ -4661,8 +4899,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.64,
+    "action": "defensive",
+    "reward": 0.10666666666666667,
     "opponent_action": "spin"
   },
   {
@@ -4671,9 +4909,9 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 36,
+      "runs": 33,
       "wickets": 1,
-      "required_run_rate": 4.153846153846154,
+      "required_run_rate": 5.538461538461538,
       "pitch_condition": "flat",
       "batter_form": 0.4168,
       "bowler_fatigue": 0.4566,
@@ -4705,9 +4943,9 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 38,
+      "runs": 36,
       "wickets": 1,
-      "required_run_rate": 3.5,
+      "required_run_rate": 4.5,
       "pitch_condition": "flat",
       "batter_form": 0.4268,
       "bowler_fatigue": 0.4766,
@@ -4729,8 +4967,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.10257575757575757,
+    "action": "aggressive",
+    "reward": 0.6859090909090909,
     "opponent_action": "spin"
   },
   {
@@ -4739,9 +4977,9 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 44,
+      "runs": 42,
       "wickets": 1,
-      "required_run_rate": 0.5454545454545454,
+      "required_run_rate": 1.6363636363636365,
       "pitch_condition": "flat",
       "batter_form": 0.4368,
       "bowler_fatigue": 0.4966,
@@ -4773,9 +5011,9 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 46,
+      "runs": 44,
       "wickets": 1,
-      "required_run_rate": 0.0,
+      "required_run_rate": 0.6,
       "pitch_condition": "flat",
       "batter_form": 0.4468,
       "bowler_fatigue": 0.5166,
@@ -4797,8 +5035,42 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
+    "action": "defensive",
     "reward": 0.09916666666666667,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "static_opponent",
+    "episode": 6,
+    "step": 21,
+    "state": {
+      "ball_number": 21,
+      "runs": 50,
+      "wickets": 1,
+      "required_run_rate": 0.0,
+      "pitch_condition": "flat",
+      "batter_form": 0.4568,
+      "bowler_fatigue": 0.5366,
+      "agent_personality": "calm"
+    },
+    "belief": {
+      "yorker": 0.04,
+      "bouncer": 0.04,
+      "spin": 0.88,
+      "slow_ball": 0.04
+    },
+    "history": [
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin"
+    ],
+    "action": "aggressive",
+    "reward": 0.931,
     "opponent_action": "spin"
   },
   {
@@ -4852,8 +5124,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "balanced",
-    "reward": 0.5,
+    "action": "defensive",
+    "reward": 1.0,
     "opponent_action": "yorker"
   },
   {
@@ -4872,18 +5144,18 @@
     },
     "belief": {
       "yorker": 0.42857142857142855,
-      "bouncer": 0.2857142857142857,
-      "spin": 0.14285714285714285,
+      "bouncer": 0.14285714285714285,
+      "spin": 0.2857142857142857,
       "slow_ball": 0.14285714285714285
     },
     "history": [
       "yorker",
       "yorker",
-      "bouncer"
+      "spin"
     ],
     "action": "aggressive",
-    "reward": 0.25,
-    "opponent_action": "bouncer"
+    "reward": 0.65,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -4901,14 +5173,14 @@
     },
     "belief": {
       "yorker": 0.5,
-      "bouncer": 0.25,
-      "spin": 0.125,
+      "bouncer": 0.125,
+      "spin": 0.25,
       "slow_ball": 0.125
     },
     "history": [
       "yorker",
       "yorker",
-      "bouncer",
+      "spin",
       "yorker"
     ],
     "action": "aggressive",
@@ -4931,14 +5203,14 @@
     },
     "belief": {
       "yorker": 0.5555555555555556,
-      "bouncer": 0.2222222222222222,
-      "spin": 0.1111111111111111,
+      "bouncer": 0.1111111111111111,
+      "spin": 0.2222222222222222,
       "slow_ball": 0.1111111111111111
     },
     "history": [
       "yorker",
       "yorker",
-      "bouncer",
+      "spin",
       "yorker",
       "yorker"
     ],
@@ -4962,14 +5234,14 @@
     },
     "belief": {
       "yorker": 0.5,
-      "bouncer": 0.3,
-      "spin": 0.1,
+      "bouncer": 0.2,
+      "spin": 0.2,
       "slow_ball": 0.1
     },
     "history": [
       "yorker",
       "yorker",
-      "bouncer",
+      "spin",
       "yorker",
       "yorker",
       "bouncer"
@@ -4994,14 +5266,14 @@
     },
     "belief": {
       "yorker": 0.45454545454545453,
-      "bouncer": 0.2727272727272727,
-      "spin": 0.18181818181818182,
+      "bouncer": 0.18181818181818182,
+      "spin": 0.2727272727272727,
       "slow_ball": 0.09090909090909091
     },
     "history": [
       "yorker",
       "yorker",
-      "bouncer",
+      "spin",
       "yorker",
       "yorker",
       "bouncer",
@@ -5027,14 +5299,14 @@
     },
     "belief": {
       "yorker": 0.4166666666666667,
-      "bouncer": 0.3333333333333333,
-      "spin": 0.16666666666666666,
+      "bouncer": 0.25,
+      "spin": 0.25,
       "slow_ball": 0.08333333333333333
     },
     "history": [
       "yorker",
       "yorker",
-      "bouncer",
+      "spin",
       "yorker",
       "yorker",
       "bouncer",
@@ -5061,13 +5333,13 @@
     },
     "belief": {
       "yorker": 0.38461538461538464,
-      "bouncer": 0.3076923076923077,
-      "spin": 0.23076923076923078,
+      "bouncer": 0.23076923076923078,
+      "spin": 0.3076923076923077,
       "slow_ball": 0.07692307692307693
     },
     "history": [
       "yorker",
-      "bouncer",
+      "spin",
       "yorker",
       "yorker",
       "bouncer",
@@ -5095,12 +5367,12 @@
     },
     "belief": {
       "yorker": 0.35714285714285715,
-      "bouncer": 0.35714285714285715,
-      "spin": 0.21428571428571427,
+      "bouncer": 0.2857142857142857,
+      "spin": 0.2857142857142857,
       "slow_ball": 0.07142857142857142
     },
     "history": [
-      "bouncer",
+      "spin",
       "yorker",
       "yorker",
       "bouncer",
@@ -5129,8 +5401,8 @@
     },
     "belief": {
       "yorker": 0.3333333333333333,
-      "bouncer": 0.3333333333333333,
-      "spin": 0.26666666666666666,
+      "bouncer": 0.26666666666666666,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.06666666666666667
     },
     "history": [
@@ -5143,8 +5415,8 @@
       "bouncer",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.48333333333333334,
+    "action": "balanced",
+    "reward": 0.08333333333333333,
     "opponent_action": "spin"
   },
   {
@@ -5162,9 +5434,9 @@
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.375,
+      "yorker": 0.3125,
       "bouncer": 0.3125,
-      "spin": 0.25,
+      "spin": 0.3125,
       "slow_ball": 0.0625
     },
     "history": [
@@ -5175,11 +5447,11 @@
       "spin",
       "bouncer",
       "spin",
-      "yorker"
+      "bouncer"
     ],
     "action": "balanced",
-    "reward": 0.0,
-    "opponent_action": "yorker"
+    "reward": 0.4,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -5196,9 +5468,9 @@
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.35294117647058826,
+      "yorker": 0.29411764705882354,
       "bouncer": 0.35294117647058826,
-      "spin": 0.23529411764705882,
+      "spin": 0.29411764705882354,
       "slow_ball": 0.058823529411764705
     },
     "history": [
@@ -5208,10 +5480,10 @@
       "spin",
       "bouncer",
       "spin",
-      "yorker",
+      "bouncer",
       "bouncer"
     ],
-    "action": "aggressive",
+    "action": "defensive",
     "reward": 0.0,
     "opponent_action": "bouncer"
   },
@@ -5230,9 +5502,9 @@
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.3888888888888889,
+      "yorker": 0.2777777777777778,
       "bouncer": 0.3333333333333333,
-      "spin": 0.2222222222222222,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.05555555555555555
     },
     "history": [
@@ -5241,13 +5513,13 @@
       "spin",
       "bouncer",
       "spin",
-      "yorker",
       "bouncer",
-      "yorker"
+      "bouncer",
+      "spin"
     ],
-    "action": "defensive",
-    "reward": 0.5,
-    "opponent_action": "yorker"
+    "action": "balanced",
+    "reward": 0.1,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -5255,18 +5527,18 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 32,
+      "runs": 31,
       "wickets": 1,
-      "required_run_rate": 5.2,
+      "required_run_rate": 5.6,
       "pitch_condition": "green",
-      "batter_form": 0.5901,
+      "batter_form": 0.5601,
       "bowler_fatigue": 0.4391,
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.3684210526315789,
-      "bouncer": 0.3157894736842105,
-      "spin": 0.2631578947368421,
+      "yorker": 0.2631578947368421,
+      "bouncer": 0.3684210526315789,
+      "spin": 0.3157894736842105,
       "slow_ball": 0.05263157894736842
     },
     "history": [
@@ -5274,14 +5546,14 @@
       "spin",
       "bouncer",
       "spin",
-      "yorker",
       "bouncer",
-      "yorker",
-      "spin"
+      "bouncer",
+      "spin",
+      "bouncer"
     ],
-    "action": "aggressive",
-    "reward": 0.48333333333333334,
-    "opponent_action": "spin"
+    "action": "balanced",
+    "reward": 0.35000000000000003,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -5289,33 +5561,33 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 35,
+      "runs": 34,
       "wickets": 1,
-      "required_run_rate": 4.285714285714286,
+      "required_run_rate": 4.714285714285714,
       "pitch_condition": "green",
-      "batter_form": 0.6001,
+      "batter_form": 0.5701,
       "bowler_fatigue": 0.4591,
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.4,
-      "bouncer": 0.3,
-      "spin": 0.25,
+      "yorker": 0.25,
+      "bouncer": 0.4,
+      "spin": 0.3,
       "slow_ball": 0.05
     },
     "history": [
       "spin",
       "bouncer",
       "spin",
-      "yorker",
       "bouncer",
-      "yorker",
+      "bouncer",
       "spin",
-      "yorker"
+      "bouncer",
+      "bouncer"
     ],
     "action": "balanced",
-    "reward": 0.25,
-    "opponent_action": "yorker"
+    "reward": 0.7,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -5323,32 +5595,32 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 35,
+      "runs": 34,
       "wickets": 1,
-      "required_run_rate": 4.615384615384615,
+      "required_run_rate": 5.076923076923077,
       "pitch_condition": "green",
-      "batter_form": 0.5801,
+      "batter_form": 0.5501,
       "bowler_fatigue": 0.4791,
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.38095238095238093,
-      "bouncer": 0.3333333333333333,
-      "spin": 0.23809523809523808,
+      "yorker": 0.23809523809523808,
+      "bouncer": 0.42857142857142855,
+      "spin": 0.2857142857142857,
       "slow_ball": 0.047619047619047616
     },
     "history": [
       "bouncer",
       "spin",
-      "yorker",
       "bouncer",
-      "yorker",
+      "bouncer",
       "spin",
-      "yorker",
+      "bouncer",
+      "bouncer",
       "bouncer"
     ],
     "action": "defensive",
-    "reward": 0.1,
+    "reward": 0.0,
     "opponent_action": "bouncer"
   },
   {
@@ -5357,32 +5629,32 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 39,
+      "runs": 38,
       "wickets": 1,
-      "required_run_rate": 3.0,
+      "required_run_rate": 3.5,
       "pitch_condition": "green",
-      "batter_form": 0.5901,
+      "batter_form": 0.5601,
       "bowler_fatigue": 0.4991,
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.36363636363636365,
-      "bouncer": 0.3181818181818182,
-      "spin": 0.2727272727272727,
+      "yorker": 0.22727272727272727,
+      "bouncer": 0.4090909090909091,
+      "spin": 0.3181818181818182,
       "slow_ball": 0.045454545454545456
     },
     "history": [
       "spin",
-      "yorker",
       "bouncer",
-      "yorker",
+      "bouncer",
       "spin",
-      "yorker",
+      "bouncer",
+      "bouncer",
       "bouncer",
       "spin"
     ],
     "action": "balanced",
-    "reward": 0.3333333333333333,
+    "reward": 0.38333333333333336,
     "opponent_action": "spin"
   },
   {
@@ -5391,32 +5663,32 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 39,
+      "runs": 38,
       "wickets": 1,
-      "required_run_rate": 3.272727272727273,
+      "required_run_rate": 3.8181818181818183,
       "pitch_condition": "green",
-      "batter_form": 0.5701,
+      "batter_form": 0.5401,
       "bowler_fatigue": 0.5191,
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.34782608695652173,
-      "bouncer": 0.34782608695652173,
-      "spin": 0.2608695652173913,
+      "yorker": 0.21739130434782608,
+      "bouncer": 0.43478260869565216,
+      "spin": 0.30434782608695654,
       "slow_ball": 0.043478260869565216
     },
     "history": [
-      "yorker",
       "bouncer",
-      "yorker",
+      "bouncer",
       "spin",
-      "yorker",
+      "bouncer",
+      "bouncer",
       "bouncer",
       "spin",
       "bouncer"
     ],
     "action": "balanced",
-    "reward": 0.4,
+    "reward": 0.45,
     "opponent_action": "bouncer"
   },
   {
@@ -5425,25 +5697,25 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 41,
+      "runs": 40,
       "wickets": 1,
-      "required_run_rate": 2.4,
+      "required_run_rate": 3.0,
       "pitch_condition": "green",
-      "batter_form": 0.5801,
+      "batter_form": 0.5501,
       "bowler_fatigue": 0.5391,
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.3333333333333333,
-      "bouncer": 0.375,
-      "spin": 0.25,
+      "yorker": 0.20833333333333334,
+      "bouncer": 0.4583333333333333,
+      "spin": 0.2916666666666667,
       "slow_ball": 0.041666666666666664
     },
     "history": [
       "bouncer",
-      "yorker",
       "spin",
-      "yorker",
+      "bouncer",
+      "bouncer",
       "bouncer",
       "spin",
       "bouncer",
@@ -5459,24 +5731,24 @@
     "step": 21,
     "state": {
       "ball_number": 21,
-      "runs": 43,
+      "runs": 42,
       "wickets": 1,
-      "required_run_rate": 1.3333333333333333,
+      "required_run_rate": 2.0,
       "pitch_condition": "green",
-      "batter_form": 0.5901,
+      "batter_form": 0.5601,
       "bowler_fatigue": 0.5591,
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.36,
-      "bouncer": 0.36,
-      "spin": 0.24,
+      "yorker": 0.24,
+      "bouncer": 0.44,
+      "spin": 0.28,
       "slow_ball": 0.04
     },
     "history": [
-      "yorker",
       "spin",
-      "yorker",
+      "bouncer",
+      "bouncer",
       "bouncer",
       "spin",
       "bouncer",
@@ -5493,23 +5765,23 @@
     "step": 22,
     "state": {
       "ball_number": 22,
-      "runs": 46,
+      "runs": 45,
       "wickets": 1,
       "required_run_rate": 0.0,
       "pitch_condition": "green",
-      "batter_form": 0.6001,
+      "batter_form": 0.5701,
       "bowler_fatigue": 0.5791,
       "agent_personality": "analytical"
     },
     "belief": {
-      "yorker": 0.38461538461538464,
-      "bouncer": 0.34615384615384615,
-      "spin": 0.23076923076923078,
+      "yorker": 0.2692307692307692,
+      "bouncer": 0.4230769230769231,
+      "spin": 0.2692307692307692,
       "slow_ball": 0.038461538461538464
     },
     "history": [
-      "spin",
-      "yorker",
+      "bouncer",
+      "bouncer",
       "bouncer",
       "spin",
       "bouncer",
@@ -5518,7 +5790,7 @@
       "yorker"
     ],
     "action": "defensive",
-    "reward": 0.75,
+    "reward": 0.65,
     "opponent_action": "yorker"
   },
   {
@@ -5544,8 +5816,8 @@
     "history": [
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.9,
+    "action": "aggressive",
+    "reward": 0.5,
     "opponent_action": "slow_ball"
   },
   {
@@ -5611,9 +5883,9 @@
     "step": 4,
     "state": {
       "ball_number": 4,
-      "runs": 12,
+      "runs": 13,
       "wickets": 1,
-      "required_run_rate": 7.615384615384615,
+      "required_run_rate": 7.384615384615385,
       "pitch_condition": "dusty",
       "batter_form": 0.6487,
       "bowler_fatigue": 0.1968,
@@ -5631,8 +5903,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.16666666666666666,
+    "action": "aggressive",
+    "reward": 0.25,
     "opponent_action": "slow_ball"
   },
   {
@@ -5641,9 +5913,9 @@
     "step": 5,
     "state": {
       "ball_number": 5,
-      "runs": 13,
+      "runs": 14,
       "wickets": 1,
-      "required_run_rate": 7.68,
+      "required_run_rate": 7.44,
       "pitch_condition": "dusty",
       "batter_form": 0.6587,
       "bowler_fatigue": 0.2168,
@@ -5662,8 +5934,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.07833333333333335,
+    "action": "balanced",
+    "reward": 0.5783333333333334,
     "opponent_action": "slow_ball"
   },
   {
@@ -5672,9 +5944,9 @@
     "step": 6,
     "state": {
       "ball_number": 6,
-      "runs": 13,
+      "runs": 14,
       "wickets": 2,
-      "required_run_rate": 8.0,
+      "required_run_rate": 7.75,
       "pitch_condition": "dusty",
       "batter_form": 0.6387,
       "bowler_fatigue": 0.2368,
@@ -5694,8 +5966,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.0,
+    "action": "defensive",
+    "reward": 0.4,
     "opponent_action": "yorker"
   },
   {
@@ -5704,9 +5976,9 @@
     "step": 7,
     "state": {
       "ball_number": 7,
-      "runs": 14,
+      "runs": 15,
       "wickets": 2,
-      "required_run_rate": 8.08695652173913,
+      "required_run_rate": 7.826086956521739,
       "pitch_condition": "dusty",
       "batter_form": 0.6487,
       "bowler_fatigue": 0.2568,
@@ -5727,8 +5999,8 @@
       "yorker",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.08333333333333333,
+    "action": "balanced",
+    "reward": 0.18333333333333335,
     "opponent_action": "spin"
   },
   {
@@ -5737,9 +6009,9 @@
     "step": 8,
     "state": {
       "ball_number": 8,
-      "runs": 14,
+      "runs": 15,
       "wickets": 2,
-      "required_run_rate": 8.454545454545455,
+      "required_run_rate": 8.181818181818182,
       "pitch_condition": "dusty",
       "batter_form": 0.6287,
       "bowler_fatigue": 0.2768,
@@ -5761,8 +6033,8 @@
       "spin",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.5,
+    "action": "defensive",
+    "reward": 0.0,
     "opponent_action": "slow_ball"
   },
   {
@@ -5771,9 +6043,9 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 14,
+      "runs": 15,
       "wickets": 3,
-      "required_run_rate": 8.857142857142858,
+      "required_run_rate": 8.571428571428571,
       "pitch_condition": "dusty",
       "batter_form": 0.6087,
       "bowler_fatigue": 0.2968,
@@ -5795,8 +6067,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.5,
+    "action": "aggressive",
+    "reward": 0.0,
     "opponent_action": "slow_ball"
   },
   {
@@ -5805,9 +6077,9 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 14,
+      "runs": 15,
       "wickets": 3,
-      "required_run_rate": 9.3,
+      "required_run_rate": 9.0,
       "pitch_condition": "dusty",
       "batter_form": 0.5887,
       "bowler_fatigue": 0.3168,
@@ -5829,7 +6101,7 @@
       "slow_ball",
       "bouncer"
     ],
-    "action": "defensive",
+    "action": "aggressive",
     "reward": 0.0,
     "opponent_action": "bouncer"
   },
@@ -5839,9 +6111,9 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 15,
+      "runs": 16,
       "wickets": 3,
-      "required_run_rate": 9.473684210526315,
+      "required_run_rate": 9.157894736842104,
       "pitch_condition": "dusty",
       "batter_form": 0.5987,
       "bowler_fatigue": 0.3368,
@@ -5873,9 +6145,9 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 15,
+      "runs": 16,
       "wickets": 3,
-      "required_run_rate": 10.0,
+      "required_run_rate": 9.666666666666666,
       "pitch_condition": "dusty",
       "batter_form": 0.5787,
       "bowler_fatigue": 0.3568,
@@ -5897,8 +6169,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.4,
+    "action": "balanced",
+    "reward": 0.1,
     "opponent_action": "yorker"
   },
   {
@@ -5907,11 +6179,11 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 15,
+      "runs": 17,
       "wickets": 3,
-      "required_run_rate": 10.588235294117647,
+      "required_run_rate": 9.882352941176471,
       "pitch_condition": "dusty",
-      "batter_form": 0.5587,
+      "batter_form": 0.5887,
       "bowler_fatigue": 0.3768,
       "agent_personality": "calm"
     },
@@ -5931,8 +6203,8 @@
       "yorker",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.0,
+    "action": "aggressive",
+    "reward": 0.43333333333333335,
     "opponent_action": "spin"
   },
   {
@@ -5941,11 +6213,11 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 19,
+      "runs": 21,
       "wickets": 3,
-      "required_run_rate": 9.75,
+      "required_run_rate": 9.0,
       "pitch_condition": "dusty",
-      "batter_form": 0.5687,
+      "batter_form": 0.5987,
       "bowler_fatigue": 0.3968,
       "agent_personality": "calm"
     },
@@ -5975,11 +6247,11 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 20,
+      "runs": 22,
       "wickets": 3,
-      "required_run_rate": 10.0,
+      "required_run_rate": 9.2,
       "pitch_condition": "dusty",
-      "batter_form": 0.5787,
+      "batter_form": 0.6087,
       "bowler_fatigue": 0.4168,
       "agent_personality": "calm"
     },
@@ -6009,11 +6281,11 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 24,
+      "runs": 26,
       "wickets": 3,
-      "required_run_rate": 9.0,
+      "required_run_rate": 8.142857142857142,
       "pitch_condition": "dusty",
-      "batter_form": 0.5887,
+      "batter_form": 0.6187,
       "bowler_fatigue": 0.4368,
       "agent_personality": "calm"
     },
@@ -6033,8 +6305,8 @@
       "yorker",
       "bouncer"
     ],
-    "action": "balanced",
-    "reward": 0.8333333333333334,
+    "action": "defensive",
+    "reward": 0.3333333333333333,
     "opponent_action": "bouncer"
   },
   {
@@ -6043,11 +6315,11 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 25,
+      "runs": 27,
       "wickets": 3,
-      "required_run_rate": 9.23076923076923,
+      "required_run_rate": 8.307692307692308,
       "pitch_condition": "dusty",
-      "batter_form": 0.5987,
+      "batter_form": 0.6287,
       "bowler_fatigue": 0.4568,
       "agent_personality": "calm"
     },
@@ -6077,11 +6349,11 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 28,
+      "runs": 30,
       "wickets": 3,
-      "required_run_rate": 8.5,
+      "required_run_rate": 7.5,
       "pitch_condition": "dusty",
-      "batter_form": 0.6087,
+      "batter_form": 0.6387,
       "bowler_fatigue": 0.4768,
       "agent_personality": "calm"
     },
@@ -6101,8 +6373,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "balanced",
-    "reward": 0.35,
+    "action": "aggressive",
+    "reward": 0.25,
     "opponent_action": "yorker"
   },
   {
@@ -6111,11 +6383,11 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 32,
+      "runs": 36,
       "wickets": 3,
-      "required_run_rate": 7.090909090909091,
+      "required_run_rate": 4.909090909090909,
       "pitch_condition": "dusty",
-      "batter_form": 0.6187,
+      "batter_form": 0.6487,
       "bowler_fatigue": 0.4968,
       "agent_personality": "calm"
     },
@@ -6135,8 +6407,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.3333333333333333,
+    "action": "aggressive",
+    "reward": 0.5,
     "opponent_action": "slow_ball"
   },
   {
@@ -6145,11 +6417,11 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 33,
+      "runs": 37,
       "wickets": 3,
-      "required_run_rate": 7.2,
+      "required_run_rate": 4.8,
       "pitch_condition": "dusty",
-      "batter_form": 0.6287,
+      "batter_form": 0.6587,
       "bowler_fatigue": 0.5168,
       "agent_personality": "calm"
     },
@@ -6179,11 +6451,11 @@
     "step": 21,
     "state": {
       "ball_number": 21,
-      "runs": 36,
+      "runs": 40,
       "wickets": 3,
-      "required_run_rate": 6.0,
+      "required_run_rate": 3.3333333333333335,
       "pitch_condition": "dusty",
-      "batter_form": 0.6387,
+      "batter_form": 0.6687,
       "bowler_fatigue": 0.5368,
       "agent_personality": "calm"
     },
@@ -6213,11 +6485,11 @@
     "step": 22,
     "state": {
       "ball_number": 22,
-      "runs": 36,
+      "runs": 40,
       "wickets": 3,
-      "required_run_rate": 6.75,
+      "required_run_rate": 3.75,
       "pitch_condition": "dusty",
-      "batter_form": 0.6187,
+      "batter_form": 0.6487,
       "bowler_fatigue": 0.5568,
       "agent_personality": "calm"
     },
@@ -6247,11 +6519,11 @@
     "step": 23,
     "state": {
       "ball_number": 23,
-      "runs": 38,
+      "runs": 42,
       "wickets": 3,
-      "required_run_rate": 6.0,
+      "required_run_rate": 2.5714285714285716,
       "pitch_condition": "dusty",
-      "batter_form": 0.6287,
+      "batter_form": 0.6587,
       "bowler_fatigue": 0.5768,
       "agent_personality": "calm"
     },
@@ -6281,11 +6553,11 @@
     "step": 24,
     "state": {
       "ball_number": 24,
-      "runs": 42,
+      "runs": 46,
       "wickets": 3,
-      "required_run_rate": 3.0,
+      "required_run_rate": 0.0,
       "pitch_condition": "dusty",
-      "batter_form": 0.6387,
+      "batter_form": 0.6687,
       "bowler_fatigue": 0.5968,
       "agent_personality": "calm"
     },
@@ -6305,77 +6577,9 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.3333333333333333,
-    "opponent_action": "yorker"
-  },
-  {
-    "task": "deceptive_opponent",
-    "episode": 8,
-    "step": 25,
-    "state": {
-      "ball_number": 25,
-      "runs": 44,
-      "wickets": 3,
-      "required_run_rate": 1.2,
-      "pitch_condition": "dusty",
-      "batter_form": 0.6487,
-      "bowler_fatigue": 0.6168,
-      "agent_personality": "calm"
-    },
-    "belief": {
-      "yorker": 0.27586206896551724,
-      "bouncer": 0.13793103448275862,
-      "spin": 0.13793103448275862,
-      "slow_ball": 0.4482758620689655
-    },
-    "history": [
-      "yorker",
-      "slow_ball",
-      "yorker",
-      "bouncer",
-      "spin",
-      "slow_ball",
-      "yorker",
-      "slow_ball"
-    ],
-    "action": "aggressive",
-    "reward": 0.16666666666666666,
-    "opponent_action": "slow_ball"
-  },
-  {
-    "task": "deceptive_opponent",
-    "episode": 8,
-    "step": 26,
-    "state": {
-      "ball_number": 26,
-      "runs": 50,
-      "wickets": 3,
-      "required_run_rate": 0.0,
-      "pitch_condition": "dusty",
-      "batter_form": 0.6587,
-      "bowler_fatigue": 0.6368,
-      "agent_personality": "calm"
-    },
-    "belief": {
-      "yorker": 0.26666666666666666,
-      "bouncer": 0.13333333333333333,
-      "spin": 0.13333333333333333,
-      "slow_ball": 0.4666666666666667
-    },
-    "history": [
-      "slow_ball",
-      "yorker",
-      "bouncer",
-      "spin",
-      "slow_ball",
-      "yorker",
-      "slow_ball",
-      "slow_ball"
-    ],
     "action": "balanced",
-    "reward": 1.0,
-    "opponent_action": "slow_ball"
+    "reward": 0.43333333333333335,
+    "opponent_action": "yorker"
   },
   {
     "task": "static_opponent",
@@ -6487,8 +6691,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "balanced",
-    "reward": 0.0,
+    "action": "defensive",
+    "reward": 0.5,
     "opponent_action": "yorker"
   },
   {
@@ -6550,8 +6754,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.48500000000000004,
+    "action": "balanced",
+    "reward": 0.0,
     "opponent_action": "yorker"
   },
   {
@@ -6583,8 +6787,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "balanced",
-    "reward": 0.14348484848484847,
+    "action": "defensive",
+    "reward": 0.6434848484848484,
     "opponent_action": "yorker"
   },
   {
@@ -6618,7 +6822,7 @@
       "yorker"
     ],
     "action": "balanced",
-    "reward": 0.003333333333333334,
+    "reward": 0.05333333333333334,
     "opponent_action": "yorker"
   },
   {
@@ -6627,11 +6831,11 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 14,
-      "wickets": 1,
-      "required_run_rate": 8.857142857142858,
+      "runs": 16,
+      "wickets": 0,
+      "required_run_rate": 8.285714285714286,
       "pitch_condition": "green",
-      "batter_form": 0.3536,
+      "batter_form": 0.3836,
       "bowler_fatigue": 0.3793,
       "agent_personality": "aggressive"
     },
@@ -6651,8 +6855,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.0,
+    "action": "balanced",
+    "reward": 0.08089743589743588,
     "opponent_action": "yorker"
   },
   {
@@ -6661,9 +6865,9 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 20,
-      "wickets": 1,
-      "required_run_rate": 7.5,
+      "runs": 16,
+      "wickets": 0,
+      "required_run_rate": 8.7,
       "pitch_condition": "green",
       "batter_form": 0.3636,
       "bowler_fatigue": 0.3993,
@@ -6685,8 +6889,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.9592857142857143,
+    "action": "balanced",
+    "reward": 0.0,
     "opponent_action": "yorker"
   },
   {
@@ -6695,9 +6899,9 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 23,
-      "wickets": 1,
-      "required_run_rate": 6.947368421052632,
+      "runs": 17,
+      "wickets": 0,
+      "required_run_rate": 8.842105263157896,
       "pitch_condition": "green",
       "batter_form": 0.3736,
       "bowler_fatigue": 0.4193,
@@ -6720,7 +6924,7 @@
       "yorker"
     ],
     "action": "aggressive",
-    "reward": 0.205,
+    "reward": 0.03833333333333332,
     "opponent_action": "yorker"
   },
   {
@@ -6729,9 +6933,9 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 26,
-      "wickets": 1,
-      "required_run_rate": 6.333333333333333,
+      "runs": 18,
+      "wickets": 0,
+      "required_run_rate": 9.0,
       "pitch_condition": "green",
       "batter_form": 0.3836,
       "bowler_fatigue": 0.4393,
@@ -6754,7 +6958,7 @@
       "yorker"
     ],
     "action": "defensive",
-    "reward": 0.70125,
+    "reward": 0.5345833333333334,
     "opponent_action": "yorker"
   },
   {
@@ -6763,9 +6967,9 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 29,
-      "wickets": 1,
-      "required_run_rate": 5.647058823529412,
+      "runs": 19,
+      "wickets": 0,
+      "required_run_rate": 9.176470588235293,
       "pitch_condition": "green",
       "batter_form": 0.3936,
       "bowler_fatigue": 0.4593,
@@ -6788,7 +6992,7 @@
       "yorker"
     ],
     "action": "balanced",
-    "reward": 0.19794117647058826,
+    "reward": 0.03127450980392158,
     "opponent_action": "yorker"
   },
   {
@@ -6797,9 +7001,9 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 30,
-      "wickets": 1,
-      "required_run_rate": 5.625,
+      "runs": 20,
+      "wickets": 0,
+      "required_run_rate": 9.375,
       "pitch_condition": "green",
       "batter_form": 0.4036,
       "bowler_fatigue": 0.4793,
@@ -6831,9 +7035,9 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 31,
-      "wickets": 1,
-      "required_run_rate": 5.6,
+      "runs": 24,
+      "wickets": 0,
+      "required_run_rate": 8.4,
       "pitch_condition": "green",
       "batter_form": 0.4136,
       "bowler_fatigue": 0.4993,
@@ -6855,8 +7059,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.525701754385965,
+    "action": "balanced",
+    "reward": 0.2757017543859649,
     "opponent_action": "yorker"
   },
   {
@@ -6865,9 +7069,9 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 32,
-      "wickets": 1,
-      "required_run_rate": 5.571428571428571,
+      "runs": 25,
+      "wickets": 0,
+      "required_run_rate": 8.571428571428571,
       "pitch_condition": "green",
       "batter_form": 0.4236,
       "bowler_fatigue": 0.5193,
@@ -6899,9 +7103,9 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 32,
-      "wickets": 1,
-      "required_run_rate": 6.0,
+      "runs": 25,
+      "wickets": 0,
+      "required_run_rate": 9.23076923076923,
       "pitch_condition": "green",
       "batter_form": 0.4036,
       "bowler_fatigue": 0.5393,
@@ -6933,11 +7137,11 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 36,
-      "wickets": 1,
-      "required_run_rate": 4.5,
+      "runs": 25,
+      "wickets": 0,
+      "required_run_rate": 10.0,
       "pitch_condition": "green",
-      "batter_form": 0.4136,
+      "batter_form": 0.3836,
       "bowler_fatigue": 0.5593,
       "agent_personality": "aggressive"
     },
@@ -6958,7 +7162,7 @@
       "yorker"
     ],
     "action": "aggressive",
-    "reward": 0.2692424242424242,
+    "reward": 0.0,
     "opponent_action": "yorker"
   },
   {
@@ -6967,11 +7171,11 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 37,
-      "wickets": 1,
-      "required_run_rate": 4.363636363636363,
+      "runs": 27,
+      "wickets": 0,
+      "required_run_rate": 9.818181818181818,
       "pitch_condition": "green",
-      "batter_form": 0.4236,
+      "batter_form": 0.3936,
       "bowler_fatigue": 0.5793,
       "agent_personality": "aggressive"
     },
@@ -6992,7 +7196,7 @@
       "yorker"
     ],
     "action": "defensive",
-    "reward": 0.5174637681159421,
+    "reward": 0.6007971014492753,
     "opponent_action": "yorker"
   },
   {
@@ -7001,11 +7205,11 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 38,
-      "wickets": 1,
-      "required_run_rate": 4.2,
+      "runs": 31,
+      "wickets": 0,
+      "required_run_rate": 8.4,
       "pitch_condition": "green",
-      "batter_form": 0.4336,
+      "batter_form": 0.4036,
       "bowler_fatigue": 0.5993,
       "agent_personality": "aggressive"
     },
@@ -7026,7 +7230,7 @@
       "yorker"
     ],
     "action": "aggressive",
-    "reward": 0.015833333333333338,
+    "reward": 0.2658333333333333,
     "opponent_action": "yorker"
   },
   {
@@ -7035,11 +7239,11 @@
     "step": 21,
     "state": {
       "ball_number": 21,
-      "runs": 40,
-      "wickets": 1,
-      "required_run_rate": 3.3333333333333335,
+      "runs": 33,
+      "wickets": 0,
+      "required_run_rate": 8.0,
       "pitch_condition": "green",
-      "batter_form": 0.4436,
+      "batter_form": 0.4136,
       "bowler_fatigue": 0.6193,
       "agent_personality": "aggressive"
     },
@@ -7059,8 +7263,8 @@
       "yorker",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.5976666666666667,
+    "action": "balanced",
+    "reward": 0.09766666666666667,
     "opponent_action": "yorker"
   },
   {
@@ -7069,11 +7273,11 @@
     "step": 22,
     "state": {
       "ball_number": 22,
-      "runs": 40,
+      "runs": 33,
       "wickets": 1,
-      "required_run_rate": 3.75,
+      "required_run_rate": 9.0,
       "pitch_condition": "green",
-      "batter_form": 0.4236,
+      "batter_form": 0.3936,
       "bowler_fatigue": 0.6393,
       "agent_personality": "aggressive"
     },
@@ -7103,11 +7307,11 @@
     "step": 23,
     "state": {
       "ball_number": 23,
-      "runs": 44,
+      "runs": 37,
       "wickets": 1,
-      "required_run_rate": 0.8571428571428571,
+      "required_run_rate": 6.857142857142857,
       "pitch_condition": "green",
-      "batter_form": 0.4336,
+      "batter_form": 0.4036,
       "bowler_fatigue": 0.6593,
       "agent_personality": "aggressive"
     },
@@ -7137,11 +7341,11 @@
     "step": 24,
     "state": {
       "ball_number": 24,
-      "runs": 45,
+      "runs": 38,
       "wickets": 1,
-      "required_run_rate": 0.0,
+      "required_run_rate": 7.0,
       "pitch_condition": "green",
-      "batter_form": 0.4436,
+      "batter_form": 0.4136,
       "bowler_fatigue": 0.6793,
       "agent_personality": "aggressive"
     },
@@ -7161,8 +7365,178 @@
       "yorker",
       "yorker"
     ],
+    "action": "balanced",
+    "reward": 0.0,
+    "opponent_action": "yorker"
+  },
+  {
+    "task": "static_opponent",
+    "episode": 9,
+    "step": 25,
+    "state": {
+      "ball_number": 25,
+      "runs": 38,
+      "wickets": 1,
+      "required_run_rate": 8.4,
+      "pitch_condition": "green",
+      "batter_form": 0.3936,
+      "bowler_fatigue": 0.6993,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.896551724137931,
+      "bouncer": 0.034482758620689655,
+      "spin": 0.034482758620689655,
+      "slow_ball": 0.034482758620689655
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker"
+    ],
+    "action": "defensive",
+    "reward": 0.4260344827586207,
+    "opponent_action": "yorker"
+  },
+  {
+    "task": "static_opponent",
+    "episode": 9,
+    "step": 26,
+    "state": {
+      "ball_number": 26,
+      "runs": 42,
+      "wickets": 1,
+      "required_run_rate": 4.5,
+      "pitch_condition": "green",
+      "batter_form": 0.4036,
+      "bowler_fatigue": 0.7193,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.9,
+      "bouncer": 0.03333333333333333,
+      "spin": 0.03333333333333333,
+      "slow_ball": 0.03333333333333333
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker"
+    ],
+    "action": "balanced",
+    "reward": 0.20833333333333331,
+    "opponent_action": "yorker"
+  },
+  {
+    "task": "static_opponent",
+    "episode": 9,
+    "step": 27,
+    "state": {
+      "ball_number": 27,
+      "runs": 43,
+      "wickets": 1,
+      "required_run_rate": 4.0,
+      "pitch_condition": "green",
+      "batter_form": 0.4136,
+      "bowler_fatigue": 0.7393,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.9032258064516129,
+      "bouncer": 0.03225806451612903,
+      "spin": 0.03225806451612903,
+      "slow_ball": 0.03225806451612903
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker"
+    ],
+    "action": "balanced",
+    "reward": 0.0,
+    "opponent_action": "yorker"
+  },
+  {
+    "task": "static_opponent",
+    "episode": 9,
+    "step": 28,
+    "state": {
+      "ball_number": 28,
+      "runs": 43,
+      "wickets": 1,
+      "required_run_rate": 6.0,
+      "pitch_condition": "green",
+      "batter_form": 0.3936,
+      "bowler_fatigue": 0.7593,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.90625,
+      "bouncer": 0.03125,
+      "spin": 0.03125,
+      "slow_ball": 0.03125
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker"
+    ],
+    "action": "defensive",
+    "reward": 0.42312500000000003,
+    "opponent_action": "yorker"
+  },
+  {
+    "task": "static_opponent",
+    "episode": 9,
+    "step": 29,
+    "state": {
+      "ball_number": 29,
+      "runs": 45,
+      "wickets": 1,
+      "required_run_rate": 0.0,
+      "pitch_condition": "green",
+      "batter_form": 0.4036,
+      "bowler_fatigue": 0.7793,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.9090909090909091,
+      "bouncer": 0.030303030303030304,
+      "spin": 0.030303030303030304,
+      "slow_ball": 0.030303030303030304
+    },
+    "history": [
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker",
+      "yorker"
+    ],
     "action": "aggressive",
-    "reward": 0.010476190476190472,
+    "reward": 0.08893939393939394,
     "opponent_action": "yorker"
   },
   {
@@ -7226,11 +7600,11 @@
     "step": 3,
     "state": {
       "ball_number": 3,
-      "runs": 4,
+      "runs": 3,
       "wickets": 0,
-      "required_run_rate": 9.11111111111111,
+      "required_run_rate": 9.333333333333334,
       "pitch_condition": "dusty",
-      "batter_form": 0.5612,
+      "batter_form": 0.5312,
       "bowler_fatigue": 0.2334,
       "agent_personality": "aggressive"
     },
@@ -7245,8 +7619,8 @@
       "bouncer",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.48333333333333334,
+    "action": "defensive",
+    "reward": 0.0,
     "opponent_action": "spin"
   },
   {
@@ -7255,29 +7629,29 @@
     "step": 4,
     "state": {
       "ball_number": 4,
-      "runs": 6,
+      "runs": 5,
       "wickets": 0,
-      "required_run_rate": 9.0,
+      "required_run_rate": 9.23076923076923,
       "pitch_condition": "dusty",
-      "batter_form": 0.5712,
+      "batter_form": 0.5412,
       "bowler_fatigue": 0.2534,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.25,
+      "yorker": 0.125,
       "bouncer": 0.375,
-      "spin": 0.25,
+      "spin": 0.375,
       "slow_ball": 0.125
     },
     "history": [
       "bouncer",
       "bouncer",
       "spin",
-      "yorker"
+      "spin"
     ],
-    "action": "defensive",
-    "reward": 0.5666666666666667,
-    "opponent_action": "yorker"
+    "action": "balanced",
+    "reward": 0.26666666666666666,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -7285,17 +7659,17 @@
     "step": 5,
     "state": {
       "ball_number": 5,
-      "runs": 12,
+      "runs": 11,
       "wickets": 0,
-      "required_run_rate": 7.92,
+      "required_run_rate": 8.16,
       "pitch_condition": "dusty",
-      "batter_form": 0.5812,
+      "batter_form": 0.5512,
       "bowler_fatigue": 0.2734,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.2222222222222222,
-      "bouncer": 0.3333333333333333,
+      "yorker": 0.1111111111111111,
+      "bouncer": 0.4444444444444444,
       "spin": 0.3333333333333333,
       "slow_ball": 0.1111111111111111
     },
@@ -7303,12 +7677,12 @@
       "bouncer",
       "bouncer",
       "spin",
-      "yorker",
-      "spin"
+      "spin",
+      "bouncer"
     ],
     "action": "defensive",
     "reward": 0.5,
-    "opponent_action": "spin"
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -7316,17 +7690,17 @@
     "step": 6,
     "state": {
       "ball_number": 6,
-      "runs": 12,
+      "runs": 11,
       "wickets": 0,
-      "required_run_rate": 8.25,
+      "required_run_rate": 8.5,
       "pitch_condition": "dusty",
-      "batter_form": 0.5612,
+      "batter_form": 0.5312,
       "bowler_fatigue": 0.2934,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.2,
-      "bouncer": 0.3,
+      "yorker": 0.1,
+      "bouncer": 0.4,
       "spin": 0.4,
       "slow_ball": 0.1
     },
@@ -7334,12 +7708,12 @@
       "bouncer",
       "bouncer",
       "spin",
-      "yorker",
       "spin",
+      "bouncer",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.0,
+    "action": "balanced",
+    "reward": 0.1,
     "opponent_action": "spin"
   },
   {
@@ -7352,28 +7726,28 @@
       "wickets": 0,
       "required_run_rate": 7.826086956521739,
       "pitch_condition": "dusty",
-      "batter_form": 0.5712,
+      "batter_form": 0.5412,
       "bowler_fatigue": 0.3134,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.18181818181818182,
-      "bouncer": 0.2727272727272727,
-      "spin": 0.45454545454545453,
+      "yorker": 0.09090909090909091,
+      "bouncer": 0.45454545454545453,
+      "spin": 0.36363636363636365,
       "slow_ball": 0.09090909090909091
     },
     "history": [
       "bouncer",
       "bouncer",
       "spin",
-      "yorker",
       "spin",
+      "bouncer",
       "spin",
-      "spin"
+      "bouncer"
     ],
-    "action": "defensive",
-    "reward": 0.2,
-    "opponent_action": "spin"
+    "action": "balanced",
+    "reward": 0.8333333333333334,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -7385,29 +7759,29 @@
       "wickets": 0,
       "required_run_rate": 8.181818181818182,
       "pitch_condition": "dusty",
-      "batter_form": 0.5512,
+      "batter_form": 0.5212,
       "bowler_fatigue": 0.3334,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.16666666666666666,
-      "bouncer": 0.25,
-      "spin": 0.5,
+      "yorker": 0.08333333333333333,
+      "bouncer": 0.5,
+      "spin": 0.3333333333333333,
       "slow_ball": 0.08333333333333333
     },
     "history": [
       "bouncer",
       "bouncer",
       "spin",
-      "yorker",
       "spin",
+      "bouncer",
       "spin",
-      "spin",
-      "spin"
+      "bouncer",
+      "bouncer"
     ],
-    "action": "balanced",
+    "action": "defensive",
     "reward": 0.0,
-    "opponent_action": "spin"
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -7419,29 +7793,29 @@
       "wickets": 0,
       "required_run_rate": 8.0,
       "pitch_condition": "dusty",
-      "batter_form": 0.5612,
+      "batter_form": 0.5312,
       "bowler_fatigue": 0.3534,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.15384615384615385,
-      "bouncer": 0.3076923076923077,
-      "spin": 0.46153846153846156,
+      "yorker": 0.07692307692307693,
+      "bouncer": 0.46153846153846156,
+      "spin": 0.38461538461538464,
       "slow_ball": 0.07692307692307693
     },
     "history": [
       "bouncer",
       "spin",
-      "yorker",
       "spin",
+      "bouncer",
       "spin",
-      "spin",
-      "spin",
-      "bouncer"
+      "bouncer",
+      "bouncer",
+      "spin"
     ],
-    "action": "defensive",
-    "reward": 0.11666666666666665,
-    "opponent_action": "bouncer"
+    "action": "balanced",
+    "reward": 0.26666666666666666,
+    "opponent_action": "spin"
   },
   {
     "task": "adaptive_opponent",
@@ -7453,29 +7827,29 @@
       "wickets": 0,
       "required_run_rate": 7.8,
       "pitch_condition": "dusty",
-      "batter_form": 0.5712,
+      "batter_form": 0.5412,
       "bowler_fatigue": 0.3734,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.14285714285714285,
-      "bouncer": 0.2857142857142857,
-      "spin": 0.5,
+      "yorker": 0.07142857142857142,
+      "bouncer": 0.5,
+      "spin": 0.35714285714285715,
       "slow_ball": 0.07142857142857142
     },
     "history": [
       "spin",
-      "yorker",
-      "spin",
-      "spin",
-      "spin",
       "spin",
       "bouncer",
-      "spin"
+      "spin",
+      "bouncer",
+      "bouncer",
+      "spin",
+      "bouncer"
     ],
     "action": "defensive",
-    "reward": 0.11666666666666665,
-    "opponent_action": "spin"
+    "reward": 0.16666666666666666,
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -7483,32 +7857,32 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 20,
+      "runs": 21,
       "wickets": 0,
-      "required_run_rate": 7.894736842105263,
+      "required_run_rate": 7.578947368421052,
       "pitch_condition": "dusty",
-      "batter_form": 0.5812,
+      "batter_form": 0.5512,
       "bowler_fatigue": 0.3934,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.13333333333333333,
-      "bouncer": 0.26666666666666666,
-      "spin": 0.5333333333333333,
+      "yorker": 0.06666666666666667,
+      "bouncer": 0.4666666666666667,
+      "spin": 0.4,
       "slow_ball": 0.06666666666666667
     },
     "history": [
-      "yorker",
-      "spin",
-      "spin",
-      "spin",
       "spin",
       "bouncer",
       "spin",
+      "bouncer",
+      "bouncer",
+      "spin",
+      "bouncer",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.033333333333333326,
+    "action": "balanced",
+    "reward": 0.26666666666666666,
     "opponent_action": "spin"
   },
   {
@@ -7517,33 +7891,33 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 26,
+      "runs": 27,
       "wickets": 0,
-      "required_run_rate": 6.333333333333333,
+      "required_run_rate": 6.0,
       "pitch_condition": "dusty",
-      "batter_form": 0.5912,
+      "batter_form": 0.5612,
       "bowler_fatigue": 0.4134,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.125,
-      "bouncer": 0.25,
-      "spin": 0.5625,
+      "yorker": 0.0625,
+      "bouncer": 0.5,
+      "spin": 0.375,
       "slow_ball": 0.0625
     },
     "history": [
+      "bouncer",
       "spin",
-      "spin",
-      "spin",
+      "bouncer",
+      "bouncer",
       "spin",
       "bouncer",
       "spin",
-      "spin",
-      "spin"
+      "bouncer"
     ],
-    "action": "balanced",
+    "action": "aggressive",
     "reward": 0.5,
-    "opponent_action": "spin"
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -7551,33 +7925,33 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 32,
+      "runs": 33,
       "wickets": 0,
-      "required_run_rate": 4.588235294117647,
+      "required_run_rate": 4.235294117647059,
       "pitch_condition": "dusty",
-      "batter_form": 0.6012,
+      "batter_form": 0.5712,
       "bowler_fatigue": 0.4334,
       "agent_personality": "aggressive"
     },
     "belief": {
       "yorker": 0.11764705882352941,
-      "bouncer": 0.29411764705882354,
-      "spin": 0.5294117647058824,
+      "bouncer": 0.47058823529411764,
+      "spin": 0.35294117647058826,
       "slow_ball": 0.058823529411764705
     },
     "history": [
       "spin",
-      "spin",
+      "bouncer",
+      "bouncer",
       "spin",
       "bouncer",
       "spin",
-      "spin",
-      "spin",
-      "bouncer"
+      "bouncer",
+      "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.6,
-    "opponent_action": "bouncer"
+    "action": "defensive",
+    "reward": 0.9,
+    "opponent_action": "yorker"
   },
   {
     "task": "adaptive_opponent",
@@ -7585,28 +7959,96 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 32,
+      "runs": 33,
       "wickets": 0,
-      "required_run_rate": 4.875,
+      "required_run_rate": 4.5,
       "pitch_condition": "dusty",
-      "batter_form": 0.5812,
+      "batter_form": 0.5512,
       "bowler_fatigue": 0.4534,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.16666666666666666,
-      "bouncer": 0.2777777777777778,
-      "spin": 0.5,
+      "yorker": 0.1111111111111111,
+      "bouncer": 0.4444444444444444,
+      "spin": 0.3888888888888889,
       "slow_ball": 0.05555555555555555
     },
     "history": [
-      "spin",
+      "bouncer",
+      "bouncer",
       "spin",
       "bouncer",
       "spin",
-      "spin",
+      "bouncer",
+      "yorker",
+      "spin"
+    ],
+    "action": "defensive",
+    "reward": 0.0,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 10,
+    "step": 15,
+    "state": {
+      "ball_number": 15,
+      "runs": 37,
+      "wickets": 0,
+      "required_run_rate": 3.2,
+      "pitch_condition": "dusty",
+      "batter_form": 0.5612,
+      "bowler_fatigue": 0.4734,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.10526315789473684,
+      "bouncer": 0.42105263157894735,
+      "spin": 0.42105263157894735,
+      "slow_ball": 0.05263157894736842
+    },
+    "history": [
+      "bouncer",
       "spin",
       "bouncer",
+      "spin",
+      "bouncer",
+      "yorker",
+      "spin",
+      "spin"
+    ],
+    "action": "aggressive",
+    "reward": 0.7333333333333334,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "adaptive_opponent",
+    "episode": 10,
+    "step": 16,
+    "state": {
+      "ball_number": 16,
+      "runs": 37,
+      "wickets": 1,
+      "required_run_rate": 3.4285714285714284,
+      "pitch_condition": "dusty",
+      "batter_form": 0.5412,
+      "bowler_fatigue": 0.4934,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.15,
+      "bouncer": 0.4,
+      "spin": 0.4,
+      "slow_ball": 0.05
+    },
+    "history": [
+      "spin",
+      "bouncer",
+      "spin",
+      "bouncer",
+      "yorker",
+      "spin",
+      "spin",
       "yorker"
     ],
     "action": "defensive",
@@ -7616,103 +8058,35 @@
   {
     "task": "adaptive_opponent",
     "episode": 10,
-    "step": 15,
-    "state": {
-      "ball_number": 15,
-      "runs": 34,
-      "wickets": 0,
-      "required_run_rate": 4.4,
-      "pitch_condition": "dusty",
-      "batter_form": 0.5912,
-      "bowler_fatigue": 0.4734,
-      "agent_personality": "aggressive"
-    },
-    "belief": {
-      "yorker": 0.15789473684210525,
-      "bouncer": 0.2631578947368421,
-      "spin": 0.5263157894736842,
-      "slow_ball": 0.05263157894736842
-    },
-    "history": [
-      "spin",
-      "bouncer",
-      "spin",
-      "spin",
-      "spin",
-      "bouncer",
-      "yorker",
-      "spin"
-    ],
-    "action": "defensive",
-    "reward": 0.16666666666666666,
-    "opponent_action": "spin"
-  },
-  {
-    "task": "adaptive_opponent",
-    "episode": 10,
-    "step": 16,
-    "state": {
-      "ball_number": 16,
-      "runs": 34,
-      "wickets": 1,
-      "required_run_rate": 4.714285714285714,
-      "pitch_condition": "dusty",
-      "batter_form": 0.5712,
-      "bowler_fatigue": 0.4934,
-      "agent_personality": "aggressive"
-    },
-    "belief": {
-      "yorker": 0.15,
-      "bouncer": 0.25,
-      "spin": 0.55,
-      "slow_ball": 0.05
-    },
-    "history": [
-      "bouncer",
-      "spin",
-      "spin",
-      "spin",
-      "bouncer",
-      "yorker",
-      "spin",
-      "spin"
-    ],
-    "action": "defensive",
-    "reward": 0.0,
-    "opponent_action": "spin"
-  },
-  {
-    "task": "adaptive_opponent",
-    "episode": 10,
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 40,
+      "runs": 43,
       "wickets": 1,
-      "required_run_rate": 2.3076923076923075,
+      "required_run_rate": 0.9230769230769231,
       "pitch_condition": "dusty",
-      "batter_form": 0.5812,
+      "batter_form": 0.5512,
       "bowler_fatigue": 0.5134,
       "agent_personality": "aggressive"
     },
     "belief": {
       "yorker": 0.14285714285714285,
-      "bouncer": 0.23809523809523808,
-      "spin": 0.5714285714285714,
+      "bouncer": 0.38095238095238093,
+      "spin": 0.42857142857142855,
       "slow_ball": 0.047619047619047616
     },
     "history": [
-      "spin",
-      "spin",
+      "bouncer",
       "spin",
       "bouncer",
       "yorker",
       "spin",
       "spin",
+      "yorker",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 1.0,
+    "action": "balanced",
+    "reward": 0.6,
     "opponent_action": "spin"
   },
   {
@@ -7721,33 +8095,33 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 40,
+      "runs": 43,
       "wickets": 2,
-      "required_run_rate": 2.5,
+      "required_run_rate": 1.0,
       "pitch_condition": "dusty",
-      "batter_form": 0.5612,
+      "batter_form": 0.5312,
       "bowler_fatigue": 0.5334,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.18181818181818182,
-      "bouncer": 0.22727272727272727,
-      "spin": 0.5454545454545454,
+      "yorker": 0.13636363636363635,
+      "bouncer": 0.4090909090909091,
+      "spin": 0.4090909090909091,
       "slow_ball": 0.045454545454545456
     },
     "history": [
-      "spin",
       "spin",
       "bouncer",
       "yorker",
       "spin",
       "spin",
+      "yorker",
       "spin",
-      "yorker"
+      "bouncer"
     ],
-    "action": "balanced",
+    "action": "defensive",
     "reward": 0.0,
-    "opponent_action": "yorker"
+    "opponent_action": "bouncer"
   },
   {
     "task": "adaptive_opponent",
@@ -7755,169 +8129,33 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 42,
+      "runs": 46,
       "wickets": 2,
-      "required_run_rate": 1.6363636363636365,
+      "required_run_rate": 0.0,
       "pitch_condition": "dusty",
-      "batter_form": 0.5712,
+      "batter_form": 0.5412,
       "bowler_fatigue": 0.5534,
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.17391304347826086,
-      "bouncer": 0.2608695652173913,
-      "spin": 0.5217391304347826,
+      "yorker": 0.13043478260869565,
+      "bouncer": 0.391304347826087,
+      "spin": 0.43478260869565216,
       "slow_ball": 0.043478260869565216
     },
     "history": [
-      "spin",
       "bouncer",
       "yorker",
       "spin",
       "spin",
-      "spin",
-      "yorker",
-      "bouncer"
-    ],
-    "action": "defensive",
-    "reward": 0.16666666666666666,
-    "opponent_action": "bouncer"
-  },
-  {
-    "task": "adaptive_opponent",
-    "episode": 10,
-    "step": 20,
-    "state": {
-      "ball_number": 20,
-      "runs": 42,
-      "wickets": 2,
-      "required_run_rate": 1.8,
-      "pitch_condition": "dusty",
-      "batter_form": 0.5512,
-      "bowler_fatigue": 0.5734,
-      "agent_personality": "aggressive"
-    },
-    "belief": {
-      "yorker": 0.16666666666666666,
-      "bouncer": 0.25,
-      "spin": 0.5416666666666666,
-      "slow_ball": 0.041666666666666664
-    },
-    "history": [
-      "bouncer",
       "yorker",
       "spin",
-      "spin",
-      "spin",
-      "yorker",
       "bouncer",
       "spin"
     ],
     "action": "aggressive",
-    "reward": 0.5,
+    "reward": 0.65,
     "opponent_action": "spin"
-  },
-  {
-    "task": "adaptive_opponent",
-    "episode": 10,
-    "step": 21,
-    "state": {
-      "ball_number": 21,
-      "runs": 43,
-      "wickets": 2,
-      "required_run_rate": 1.3333333333333333,
-      "pitch_condition": "dusty",
-      "batter_form": 0.5612,
-      "bowler_fatigue": 0.5934,
-      "agent_personality": "aggressive"
-    },
-    "belief": {
-      "yorker": 0.2,
-      "bouncer": 0.24,
-      "spin": 0.52,
-      "slow_ball": 0.04
-    },
-    "history": [
-      "yorker",
-      "spin",
-      "spin",
-      "spin",
-      "yorker",
-      "bouncer",
-      "spin",
-      "yorker"
-    ],
-    "action": "aggressive",
-    "reward": 0.18333333333333335,
-    "opponent_action": "yorker"
-  },
-  {
-    "task": "adaptive_opponent",
-    "episode": 10,
-    "step": 22,
-    "state": {
-      "ball_number": 22,
-      "runs": 43,
-      "wickets": 3,
-      "required_run_rate": 1.5,
-      "pitch_condition": "dusty",
-      "batter_form": 0.5412,
-      "bowler_fatigue": 0.6134,
-      "agent_personality": "aggressive"
-    },
-    "belief": {
-      "yorker": 0.23076923076923078,
-      "bouncer": 0.23076923076923078,
-      "spin": 0.5,
-      "slow_ball": 0.038461538461538464
-    },
-    "history": [
-      "spin",
-      "spin",
-      "spin",
-      "yorker",
-      "bouncer",
-      "spin",
-      "yorker",
-      "yorker"
-    ],
-    "action": "aggressive",
-    "reward": 0.1,
-    "opponent_action": "yorker"
-  },
-  {
-    "task": "adaptive_opponent",
-    "episode": 10,
-    "step": 23,
-    "state": {
-      "ball_number": 23,
-      "runs": 45,
-      "wickets": 3,
-      "required_run_rate": 0.0,
-      "pitch_condition": "dusty",
-      "batter_form": 0.5512,
-      "bowler_fatigue": 0.6334,
-      "agent_personality": "aggressive"
-    },
-    "belief": {
-      "yorker": 0.25925925925925924,
-      "bouncer": 0.2222222222222222,
-      "spin": 0.48148148148148145,
-      "slow_ball": 0.037037037037037035
-    },
-    "history": [
-      "spin",
-      "spin",
-      "yorker",
-      "bouncer",
-      "spin",
-      "yorker",
-      "yorker",
-      "yorker"
-    ],
-    "action": "defensive",
-    "reward": 0.5666666666666667,
-    "opponent_action": "yorker"
   },
   {
     "task": "deceptive_opponent",
@@ -7970,8 +8208,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.6666666666666666,
+    "action": "aggressive",
+    "reward": 0.16666666666666666,
     "opponent_action": "slow_ball"
   },
   {
@@ -8060,8 +8298,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.695,
+    "action": "aggressive",
+    "reward": 0.24500000000000002,
     "opponent_action": "slow_ball"
   },
   {
@@ -8093,7 +8331,7 @@
       "yorker"
     ],
     "action": "balanced",
-    "reward": 0.0,
+    "reward": 0.1,
     "opponent_action": "yorker"
   },
   {
@@ -8160,7 +8398,7 @@
       "yorker"
     ],
     "action": "balanced",
-    "reward": 0.05,
+    "reward": 0.1,
     "opponent_action": "yorker"
   },
   {
@@ -8193,8 +8431,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "aggressive",
-    "reward": 0.3333333333333333,
+    "action": "balanced",
+    "reward": 0.8333333333333334,
     "opponent_action": "slow_ball"
   },
   {
@@ -8228,7 +8466,7 @@
       "slow_ball"
     ],
     "action": "balanced",
-    "reward": 0.75,
+    "reward": 0.7,
     "opponent_action": "slow_ball"
   },
   {
@@ -8261,8 +8499,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.0,
+    "action": "balanced",
+    "reward": 0.05,
     "opponent_action": "yorker"
   },
   {
@@ -8296,7 +8534,7 @@
       "slow_ball"
     ],
     "action": "balanced",
-    "reward": 0.5,
+    "reward": 0.4,
     "opponent_action": "slow_ball"
   },
   {
@@ -8330,7 +8568,7 @@
       "yorker"
     ],
     "action": "balanced",
-    "reward": 0.1,
+    "reward": 0.0,
     "opponent_action": "yorker"
   },
   {
@@ -8441,11 +8679,11 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 35,
+      "runs": 36,
       "wickets": 0,
-      "required_run_rate": 4.615384615384615,
+      "required_run_rate": 4.153846153846154,
       "pitch_condition": "flat",
-      "batter_form": 0.4161,
+      "batter_form": 0.4461,
       "bowler_fatigue": 0.4521,
       "agent_personality": "aggressive"
     },
@@ -8465,8 +8703,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.5,
+    "action": "aggressive",
+    "reward": 0.08333333333333333,
     "opponent_action": "slow_ball"
   },
   {
@@ -8475,11 +8713,11 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 39,
+      "runs": 40,
       "wickets": 0,
-      "required_run_rate": 3.0,
+      "required_run_rate": 2.5,
       "pitch_condition": "flat",
-      "batter_form": 0.4261,
+      "batter_form": 0.4561,
       "bowler_fatigue": 0.4721,
       "agent_personality": "aggressive"
     },
@@ -8509,11 +8747,11 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 39,
+      "runs": 40,
       "wickets": 0,
-      "required_run_rate": 3.272727272727273,
+      "required_run_rate": 2.727272727272727,
       "pitch_condition": "flat",
-      "batter_form": 0.4061,
+      "batter_form": 0.4361,
       "bowler_fatigue": 0.4921,
       "agent_personality": "aggressive"
     },
@@ -8543,11 +8781,11 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 39,
+      "runs": 40,
       "wickets": 0,
-      "required_run_rate": 3.6,
+      "required_run_rate": 3.0,
       "pitch_condition": "flat",
-      "batter_form": 0.3861,
+      "batter_form": 0.4161,
       "bowler_fatigue": 0.5121,
       "agent_personality": "aggressive"
     },
@@ -8577,11 +8815,11 @@
     "step": 21,
     "state": {
       "ball_number": 21,
-      "runs": 39,
+      "runs": 40,
       "wickets": 0,
-      "required_run_rate": 4.0,
+      "required_run_rate": 3.3333333333333335,
       "pitch_condition": "flat",
-      "batter_form": 0.3661,
+      "batter_form": 0.3961,
       "bowler_fatigue": 0.5321,
       "agent_personality": "aggressive"
     },
@@ -8611,11 +8849,11 @@
     "step": 22,
     "state": {
       "ball_number": 22,
-      "runs": 40,
+      "runs": 41,
       "wickets": 0,
-      "required_run_rate": 3.75,
+      "required_run_rate": 3.0,
       "pitch_condition": "flat",
-      "batter_form": 0.3761,
+      "batter_form": 0.4061,
       "bowler_fatigue": 0.5521,
       "agent_personality": "aggressive"
     },
@@ -8645,11 +8883,11 @@
     "step": 23,
     "state": {
       "ball_number": 23,
-      "runs": 40,
+      "runs": 41,
       "wickets": 0,
-      "required_run_rate": 4.285714285714286,
+      "required_run_rate": 3.4285714285714284,
       "pitch_condition": "flat",
-      "batter_form": 0.3561,
+      "batter_form": 0.3861,
       "bowler_fatigue": 0.5721,
       "agent_personality": "aggressive"
     },
@@ -8679,11 +8917,11 @@
     "step": 24,
     "state": {
       "ball_number": 24,
-      "runs": 40,
+      "runs": 41,
       "wickets": 0,
-      "required_run_rate": 5.0,
+      "required_run_rate": 4.0,
       "pitch_condition": "flat",
-      "batter_form": 0.3361,
+      "batter_form": 0.3661,
       "bowler_fatigue": 0.5921,
       "agent_personality": "aggressive"
     },
@@ -8713,11 +8951,11 @@
     "step": 25,
     "state": {
       "ball_number": 25,
-      "runs": 40,
+      "runs": 41,
       "wickets": 0,
-      "required_run_rate": 6.0,
+      "required_run_rate": 4.8,
       "pitch_condition": "flat",
-      "batter_form": 0.3161,
+      "batter_form": 0.3461,
       "bowler_fatigue": 0.6121,
       "agent_personality": "aggressive"
     },
@@ -8747,11 +8985,11 @@
     "step": 26,
     "state": {
       "ball_number": 26,
-      "runs": 40,
+      "runs": 41,
       "wickets": 0,
-      "required_run_rate": 7.5,
+      "required_run_rate": 6.0,
       "pitch_condition": "flat",
-      "batter_form": 0.2961,
+      "batter_form": 0.3261,
       "bowler_fatigue": 0.6321,
       "agent_personality": "aggressive"
     },
@@ -8781,11 +9019,11 @@
     "step": 27,
     "state": {
       "ball_number": 27,
-      "runs": 41,
+      "runs": 42,
       "wickets": 0,
-      "required_run_rate": 8.0,
+      "required_run_rate": 6.0,
       "pitch_condition": "flat",
-      "batter_form": 0.3061,
+      "batter_form": 0.3361,
       "bowler_fatigue": 0.6521,
       "agent_personality": "aggressive"
     },
@@ -8815,11 +9053,11 @@
     "step": 28,
     "state": {
       "ball_number": 28,
-      "runs": 42,
+      "runs": 43,
       "wickets": 0,
-      "required_run_rate": 9.0,
+      "required_run_rate": 6.0,
       "pitch_condition": "flat",
-      "batter_form": 0.3161,
+      "batter_form": 0.3461,
       "bowler_fatigue": 0.6721,
       "agent_personality": "aggressive"
     },
@@ -8849,11 +9087,11 @@
     "step": 29,
     "state": {
       "ball_number": 29,
-      "runs": 43,
+      "runs": 44,
       "wickets": 0,
-      "required_run_rate": 12.0,
+      "required_run_rate": 6.0,
       "pitch_condition": "flat",
-      "batter_form": 0.3261,
+      "batter_form": 0.3561,
       "bowler_fatigue": 0.6921,
       "agent_personality": "aggressive"
     },
@@ -8883,11 +9121,11 @@
     "step": 30,
     "state": {
       "ball_number": 30,
-      "runs": 46,
+      "runs": 48,
       "wickets": 0,
       "required_run_rate": 0.0,
       "pitch_condition": "flat",
-      "batter_form": 0.3361,
+      "batter_form": 0.3661,
       "bowler_fatigue": 0.7121,
       "agent_personality": "aggressive"
     },
@@ -8907,8 +9145,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "balanced",
-    "reward": 0.35,
+    "action": "aggressive",
+    "reward": 0.3333333333333333,
     "opponent_action": "yorker"
   },
   {
@@ -8934,7 +9172,7 @@
     "history": [
       "spin"
     ],
-    "action": "balanced",
+    "action": "defensive",
     "reward": 0.0,
     "opponent_action": "spin"
   },
@@ -8962,7 +9200,7 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
+    "action": "defensive",
     "reward": 0.3333333333333333,
     "opponent_action": "spin"
   },
@@ -9001,9 +9239,9 @@
     "step": 4,
     "state": {
       "ball_number": 4,
-      "runs": 7,
+      "runs": 6,
       "wickets": 1,
-      "required_run_rate": 8.76923076923077,
+      "required_run_rate": 9.0,
       "pitch_condition": "flat",
       "batter_form": 0.4075,
       "bowler_fatigue": 0.1905,
@@ -9021,8 +9259,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.16666666666666666,
+    "action": "defensive",
+    "reward": 0.08333333333333333,
     "opponent_action": "spin"
   },
   {
@@ -9031,9 +9269,9 @@
     "step": 5,
     "state": {
       "ball_number": 5,
-      "runs": 13,
+      "runs": 10,
       "wickets": 1,
-      "required_run_rate": 7.68,
+      "required_run_rate": 8.4,
       "pitch_condition": "flat",
       "batter_form": 0.4175,
       "bowler_fatigue": 0.2105,
@@ -9052,8 +9290,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.995,
+    "action": "defensive",
+    "reward": 0.2783333333333333,
     "opponent_action": "spin"
   },
   {
@@ -9062,9 +9300,9 @@
     "step": 6,
     "state": {
       "ball_number": 6,
-      "runs": 19,
+      "runs": 14,
       "wickets": 1,
-      "required_run_rate": 6.5,
+      "required_run_rate": 7.75,
       "pitch_condition": "flat",
       "batter_form": 0.4275,
       "bowler_fatigue": 0.2305,
@@ -9084,8 +9322,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.985,
+    "action": "balanced",
+    "reward": 0.31833333333333336,
     "opponent_action": "spin"
   },
   {
@@ -9094,9 +9332,9 @@
     "step": 7,
     "state": {
       "ball_number": 7,
-      "runs": 21,
+      "runs": 15,
       "wickets": 1,
-      "required_run_rate": 6.260869565217392,
+      "required_run_rate": 7.826086956521739,
       "pitch_condition": "flat",
       "batter_form": 0.4375,
       "bowler_fatigue": 0.2505,
@@ -9117,8 +9355,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.14348484848484847,
+    "action": "defensive",
+    "reward": 0.06015151515151515,
     "opponent_action": "spin"
   },
   {
@@ -9127,9 +9365,9 @@
     "step": 8,
     "state": {
       "ball_number": 8,
-      "runs": 22,
+      "runs": 16,
       "wickets": 1,
-      "required_run_rate": 6.2727272727272725,
+      "required_run_rate": 7.909090909090909,
       "pitch_condition": "flat",
       "batter_form": 0.4475,
       "bowler_fatigue": 0.2705,
@@ -9161,9 +9399,9 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 26,
+      "runs": 22,
       "wickets": 1,
-      "required_run_rate": 5.428571428571429,
+      "required_run_rate": 6.571428571428571,
       "pitch_condition": "flat",
       "batter_form": 0.4575,
       "bowler_fatigue": 0.2905,
@@ -9185,8 +9423,8 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
-    "reward": 0.29756410256410254,
+    "action": "aggressive",
+    "reward": 0.9642307692307692,
     "opponent_action": "spin"
   },
   {
@@ -9195,11 +9433,11 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 27,
+      "runs": 22,
       "wickets": 1,
-      "required_run_rate": 5.4,
+      "required_run_rate": 6.9,
       "pitch_condition": "flat",
-      "batter_form": 0.4675,
+      "batter_form": 0.4375,
       "bowler_fatigue": 0.3105,
       "agent_personality": "aggressive"
     },
@@ -9219,8 +9457,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.5426190476190477,
+    "action": "balanced",
+    "reward": 0.0,
     "opponent_action": "spin"
   },
   {
@@ -9229,11 +9467,11 @@
     "step": 11,
     "state": {
       "ball_number": 11,
-      "runs": 30,
+      "runs": 24,
       "wickets": 1,
-      "required_run_rate": 4.7368421052631575,
+      "required_run_rate": 6.631578947368421,
       "pitch_condition": "flat",
-      "batter_form": 0.4775,
+      "batter_form": 0.4475,
       "bowler_fatigue": 0.3305,
       "agent_personality": "aggressive"
     },
@@ -9253,8 +9491,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.705,
+    "action": "defensive",
+    "reward": 0.12166666666666665,
     "opponent_action": "spin"
   },
   {
@@ -9263,11 +9501,11 @@
     "step": 12,
     "state": {
       "ball_number": 12,
-      "runs": 34,
+      "runs": 28,
       "wickets": 1,
-      "required_run_rate": 3.6666666666666665,
+      "required_run_rate": 5.666666666666667,
       "pitch_condition": "flat",
-      "batter_form": 0.4875,
+      "batter_form": 0.4575,
       "bowler_fatigue": 0.3505,
       "agent_personality": "aggressive"
     },
@@ -9287,8 +9525,8 @@
       "spin",
       "spin"
     ],
-    "action": "aggressive",
-    "reward": 0.7345833333333334,
+    "action": "balanced",
+    "reward": 0.2845833333333333,
     "opponent_action": "spin"
   },
   {
@@ -9297,11 +9535,11 @@
     "step": 13,
     "state": {
       "ball_number": 13,
-      "runs": 38,
+      "runs": 32,
       "wickets": 1,
-      "required_run_rate": 2.4705882352941178,
+      "required_run_rate": 4.588235294117647,
       "pitch_condition": "flat",
-      "batter_form": 0.4975,
+      "batter_form": 0.4675,
       "bowler_fatigue": 0.3705,
       "agent_personality": "aggressive"
     },
@@ -9321,7 +9559,7 @@
       "spin",
       "spin"
     ],
-    "action": "balanced",
+    "action": "defensive",
     "reward": 0.28127450980392155,
     "opponent_action": "spin"
   },
@@ -9331,11 +9569,11 @@
     "step": 14,
     "state": {
       "ball_number": 14,
-      "runs": 42,
+      "runs": 36,
       "wickets": 1,
-      "required_run_rate": 1.125,
+      "required_run_rate": 3.375,
       "pitch_condition": "flat",
-      "batter_form": 0.5075,
+      "batter_form": 0.4775,
       "bowler_fatigue": 0.3905,
       "agent_personality": "aggressive"
     },
@@ -9365,11 +9603,11 @@
     "step": 15,
     "state": {
       "ball_number": 15,
-      "runs": 44,
+      "runs": 39,
       "wickets": 1,
-      "required_run_rate": 0.4,
+      "required_run_rate": 2.4,
       "pitch_condition": "flat",
-      "batter_form": 0.5175,
+      "batter_form": 0.4875,
       "bowler_fatigue": 0.4105,
       "agent_personality": "aggressive"
     },
@@ -9389,8 +9627,8 @@
       "spin",
       "spin"
     ],
-    "action": "defensive",
-    "reward": 0.10903508771929826,
+    "action": "aggressive",
+    "reward": 0.6923684210526316,
     "opponent_action": "spin"
   },
   {
@@ -9399,11 +9637,11 @@
     "step": 16,
     "state": {
       "ball_number": 16,
-      "runs": 46,
+      "runs": 41,
       "wickets": 1,
-      "required_run_rate": 0.0,
+      "required_run_rate": 1.7142857142857142,
       "pitch_condition": "flat",
-      "batter_form": 0.5275,
+      "batter_form": 0.4975,
       "bowler_fatigue": 0.4305,
       "agent_personality": "aggressive"
     },
@@ -9425,6 +9663,74 @@
     ],
     "action": "balanced",
     "reward": 0.10666666666666667,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "static_opponent",
+    "episode": 12,
+    "step": 17,
+    "state": {
+      "ball_number": 17,
+      "runs": 41,
+      "wickets": 1,
+      "required_run_rate": 1.8461538461538463,
+      "pitch_condition": "flat",
+      "batter_form": 0.4775,
+      "bowler_fatigue": 0.4505,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.047619047619047616,
+      "bouncer": 0.047619047619047616,
+      "spin": 0.8571428571428571,
+      "slow_ball": 0.047619047619047616
+    },
+    "history": [
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin"
+    ],
+    "action": "defensive",
+    "reward": 0.0,
+    "opponent_action": "spin"
+  },
+  {
+    "task": "static_opponent",
+    "episode": 12,
+    "step": 18,
+    "state": {
+      "ball_number": 18,
+      "runs": 47,
+      "wickets": 1,
+      "required_run_rate": 0.0,
+      "pitch_condition": "flat",
+      "batter_form": 0.4875,
+      "bowler_fatigue": 0.4705,
+      "agent_personality": "aggressive"
+    },
+    "belief": {
+      "yorker": 0.045454545454545456,
+      "bouncer": 0.045454545454545456,
+      "spin": 0.8636363636363636,
+      "slow_ball": 0.045454545454545456
+    },
+    "history": [
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin",
+      "spin"
+    ],
+    "action": "aggressive",
+    "reward": 0.9359090909090909,
     "opponent_action": "spin"
   },
   {
@@ -10017,9 +10323,9 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 42,
+      "runs": 43,
       "wickets": 2,
-      "required_run_rate": 1.6363636363636365,
+      "required_run_rate": 1.0909090909090908,
       "pitch_condition": "flat",
       "batter_form": 0.5897,
       "bowler_fatigue": 0.5332,
@@ -10041,8 +10347,8 @@
       "spin",
       "yorker"
     ],
-    "action": "defensive",
-    "reward": 0.65,
+    "action": "aggressive",
+    "reward": 0.3333333333333333,
     "opponent_action": "yorker"
   },
   {
@@ -10051,7 +10357,7 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 48,
+      "runs": 47,
       "wickets": 2,
       "required_run_rate": 0.0,
       "pitch_condition": "flat",
@@ -10060,9 +10366,9 @@
       "agent_personality": "aggressive"
     },
     "belief": {
-      "yorker": 0.2916666666666667,
+      "yorker": 0.3333333333333333,
       "bouncer": 0.4583333333333333,
-      "spin": 0.16666666666666666,
+      "spin": 0.125,
       "slow_ball": 0.08333333333333333
     },
     "history": [
@@ -10073,11 +10379,11 @@
       "spin",
       "spin",
       "yorker",
-      "spin"
+      "yorker"
     ],
     "action": "balanced",
-    "reward": 0.6,
-    "opponent_action": "spin"
+    "reward": 0.43333333333333335,
+    "opponent_action": "yorker"
   },
   {
     "task": "deceptive_opponent",
@@ -10112,9 +10418,9 @@
     "step": 2,
     "state": {
       "ball_number": 2,
-      "runs": 8,
+      "runs": 7,
       "wickets": 0,
-      "required_run_rate": 7.928571428571429,
+      "required_run_rate": 8.142857142857142,
       "pitch_condition": "dusty",
       "batter_form": 0.3717,
       "bowler_fatigue": 0.1281,
@@ -10130,8 +10436,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.6666666666666666,
+    "action": "defensive",
+    "reward": 0.08333333333333333,
     "opponent_action": "slow_ball"
   },
   {
@@ -10140,9 +10446,9 @@
     "step": 3,
     "state": {
       "ball_number": 3,
-      "runs": 9,
+      "runs": 8,
       "wickets": 0,
-      "required_run_rate": 8.0,
+      "required_run_rate": 8.222222222222221,
       "pitch_condition": "dusty",
       "batter_form": 0.3817,
       "bowler_fatigue": 0.1481,
@@ -10159,8 +10465,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.5833333333333334,
+    "action": "aggressive",
+    "reward": 0.08333333333333333,
     "opponent_action": "slow_ball"
   },
   {
@@ -10169,9 +10475,9 @@
     "step": 4,
     "state": {
       "ball_number": 4,
-      "runs": 12,
+      "runs": 11,
       "wickets": 0,
-      "required_run_rate": 7.615384615384615,
+      "required_run_rate": 7.846153846153846,
       "pitch_condition": "dusty",
       "batter_form": 0.3917,
       "bowler_fatigue": 0.1681,
@@ -10199,9 +10505,9 @@
     "step": 5,
     "state": {
       "ball_number": 5,
-      "runs": 16,
+      "runs": 15,
       "wickets": 0,
-      "required_run_rate": 6.96,
+      "required_run_rate": 7.2,
       "pitch_condition": "dusty",
       "batter_form": 0.4017,
       "bowler_fatigue": 0.1881,
@@ -10220,7 +10526,7 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "defensive",
+    "action": "aggressive",
     "reward": 0.3283333333333333,
     "opponent_action": "slow_ball"
   },
@@ -10230,9 +10536,9 @@
     "step": 6,
     "state": {
       "ball_number": 6,
-      "runs": 20,
+      "runs": 18,
       "wickets": 0,
-      "required_run_rate": 6.25,
+      "required_run_rate": 6.75,
       "pitch_condition": "dusty",
       "batter_form": 0.4117,
       "bowler_fatigue": 0.2081,
@@ -10252,8 +10558,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.3333333333333333,
+    "action": "balanced",
+    "reward": 0.35,
     "opponent_action": "yorker"
   },
   {
@@ -10262,9 +10568,9 @@
     "step": 7,
     "state": {
       "ball_number": 7,
-      "runs": 24,
+      "runs": 22,
       "wickets": 0,
-      "required_run_rate": 5.478260869565218,
+      "required_run_rate": 6.0,
       "pitch_condition": "dusty",
       "batter_form": 0.4217,
       "bowler_fatigue": 0.2281,
@@ -10285,8 +10591,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.8333333333333334,
+    "action": "aggressive",
+    "reward": 0.2833333333333333,
     "opponent_action": "slow_ball"
   },
   {
@@ -10295,9 +10601,9 @@
     "step": 8,
     "state": {
       "ball_number": 8,
-      "runs": 25,
+      "runs": 23,
       "wickets": 0,
-      "required_run_rate": 5.454545454545454,
+      "required_run_rate": 6.0,
       "pitch_condition": "dusty",
       "batter_form": 0.4317,
       "bowler_fatigue": 0.2481,
@@ -10319,8 +10625,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "aggressive",
-    "reward": 0.08333333333333333,
+    "action": "defensive",
+    "reward": 0.48333333333333334,
     "opponent_action": "yorker"
   },
   {
@@ -10329,11 +10635,11 @@
     "step": 9,
     "state": {
       "ball_number": 9,
-      "runs": 25,
+      "runs": 24,
       "wickets": 0,
-      "required_run_rate": 5.714285714285714,
+      "required_run_rate": 6.0,
       "pitch_condition": "dusty",
-      "batter_form": 0.4117,
+      "batter_form": 0.4417,
       "bowler_fatigue": 0.2681,
       "agent_personality": "analytical"
     },
@@ -10353,8 +10659,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.0,
+    "action": "balanced",
+    "reward": 0.5833333333333334,
     "opponent_action": "slow_ball"
   },
   {
@@ -10363,11 +10669,11 @@
     "step": 10,
     "state": {
       "ball_number": 10,
-      "runs": 25,
+      "runs": 24,
       "wickets": 0,
-      "required_run_rate": 6.0,
+      "required_run_rate": 6.3,
       "pitch_condition": "dusty",
-      "batter_form": 0.3917,
+      "batter_form": 0.4217,
       "bowler_fatigue": 0.2881,
       "agent_personality": "analytical"
     },
@@ -10401,7 +10707,7 @@
       "wickets": 0,
       "required_run_rate": 5.684210526315789,
       "pitch_condition": "dusty",
-      "batter_form": 0.4017,
+      "batter_form": 0.4317,
       "bowler_fatigue": 0.3081,
       "agent_personality": "analytical"
     },
@@ -10421,8 +10727,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.16166666666666668,
+    "action": "balanced",
+    "reward": 0.745,
     "opponent_action": "slow_ball"
   },
   {
@@ -10435,7 +10741,7 @@
       "wickets": 0,
       "required_run_rate": 5.333333333333333,
       "pitch_condition": "dusty",
-      "batter_form": 0.4117,
+      "batter_form": 0.4417,
       "bowler_fatigue": 0.3281,
       "agent_personality": "analytical"
     },
@@ -10469,7 +10775,7 @@
       "wickets": 1,
       "required_run_rate": 5.647058823529412,
       "pitch_condition": "dusty",
-      "batter_form": 0.3917,
+      "batter_form": 0.4217,
       "bowler_fatigue": 0.3481,
       "agent_personality": "analytical"
     },
@@ -10490,7 +10796,7 @@
       "yorker"
     ],
     "action": "balanced",
-    "reward": 0.1,
+    "reward": 0.05,
     "opponent_action": "yorker"
   },
   {
@@ -10503,7 +10809,7 @@
       "wickets": 1,
       "required_run_rate": 4.5,
       "pitch_condition": "dusty",
-      "batter_form": 0.4017,
+      "batter_form": 0.4317,
       "bowler_fatigue": 0.3681,
       "agent_personality": "analytical"
     },
@@ -10523,8 +10829,8 @@
       "yorker",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.3283333333333333,
+    "action": "balanced",
+    "reward": 0.7783333333333333,
     "opponent_action": "slow_ball"
   },
   {
@@ -10537,7 +10843,7 @@
       "wickets": 1,
       "required_run_rate": 4.8,
       "pitch_condition": "dusty",
-      "batter_form": 0.3817,
+      "batter_form": 0.4117,
       "bowler_fatigue": 0.3881,
       "agent_personality": "analytical"
     },
@@ -10571,7 +10877,7 @@
       "wickets": 1,
       "required_run_rate": 4.285714285714286,
       "pitch_condition": "dusty",
-      "batter_form": 0.3917,
+      "batter_form": 0.4217,
       "bowler_fatigue": 0.4081,
       "agent_personality": "analytical"
     },
@@ -10591,8 +10897,8 @@
       "yorker",
       "bouncer"
     ],
-    "action": "balanced",
-    "reward": 0.6666666666666666,
+    "action": "aggressive",
+    "reward": 0.16666666666666666,
     "opponent_action": "bouncer"
   },
   {
@@ -10601,11 +10907,11 @@
     "step": 17,
     "state": {
       "ball_number": 17,
-      "runs": 35,
+      "runs": 36,
       "wickets": 1,
-      "required_run_rate": 4.615384615384615,
+      "required_run_rate": 4.153846153846154,
       "pitch_condition": "dusty",
-      "batter_form": 0.3717,
+      "batter_form": 0.4317,
       "bowler_fatigue": 0.4281,
       "agent_personality": "analytical"
     },
@@ -10625,8 +10931,8 @@
       "bouncer",
       "slow_ball"
     ],
-    "action": "defensive",
-    "reward": 0.0,
+    "action": "balanced",
+    "reward": 0.5833333333333334,
     "opponent_action": "slow_ball"
   },
   {
@@ -10635,11 +10941,11 @@
     "step": 18,
     "state": {
       "ball_number": 18,
-      "runs": 35,
+      "runs": 36,
       "wickets": 1,
-      "required_run_rate": 5.0,
+      "required_run_rate": 4.5,
       "pitch_condition": "dusty",
-      "batter_form": 0.3517,
+      "batter_form": 0.4117,
       "bowler_fatigue": 0.4481,
       "agent_personality": "analytical"
     },
@@ -10659,8 +10965,8 @@
       "slow_ball",
       "slow_ball"
     ],
-    "action": "balanced",
-    "reward": 0.5,
+    "action": "aggressive",
+    "reward": 0.0,
     "opponent_action": "slow_ball"
   },
   {
@@ -10669,11 +10975,11 @@
     "step": 19,
     "state": {
       "ball_number": 19,
-      "runs": 37,
+      "runs": 39,
       "wickets": 1,
-      "required_run_rate": 4.363636363636363,
+      "required_run_rate": 3.272727272727273,
       "pitch_condition": "dusty",
-      "batter_form": 0.3617,
+      "batter_form": 0.4217,
       "bowler_fatigue": 0.4681,
       "agent_personality": "analytical"
     },
@@ -10694,7 +11000,7 @@
       "yorker"
     ],
     "action": "defensive",
-    "reward": 0.5666666666666667,
+    "reward": 0.65,
     "opponent_action": "yorker"
   },
   {
@@ -10703,11 +11009,11 @@
     "step": 20,
     "state": {
       "ball_number": 20,
-      "runs": 41,
+      "runs": 43,
       "wickets": 1,
-      "required_run_rate": 2.4,
+      "required_run_rate": 1.2,
       "pitch_condition": "dusty",
-      "batter_form": 0.3717,
+      "batter_form": 0.4317,
       "bowler_fatigue": 0.4881,
       "agent_personality": "analytical"
     },
@@ -10727,8 +11033,8 @@
       "yorker",
       "bouncer"
     ],
-    "action": "aggressive",
-    "reward": 0.3333333333333333,
+    "action": "balanced",
+    "reward": 0.8333333333333334,
     "opponent_action": "bouncer"
   },
   {
@@ -10737,11 +11043,11 @@
     "step": 21,
     "state": {
       "ball_number": 21,
-      "runs": 41,
+      "runs": 43,
       "wickets": 1,
-      "required_run_rate": 2.6666666666666665,
+      "required_run_rate": 1.3333333333333333,
       "pitch_condition": "dusty",
-      "batter_form": 0.3517,
+      "batter_form": 0.4117,
       "bowler_fatigue": 0.5081,
       "agent_personality": "analytical"
     },
@@ -10761,7 +11067,7 @@
       "bouncer",
       "slow_ball"
     ],
-    "action": "aggressive",
+    "action": "defensive",
     "reward": 0.0,
     "opponent_action": "slow_ball"
   },
@@ -10771,11 +11077,11 @@
     "step": 22,
     "state": {
       "ball_number": 22,
-      "runs": 45,
+      "runs": 47,
       "wickets": 1,
       "required_run_rate": 0.0,
       "pitch_condition": "dusty",
-      "batter_form": 0.3617,
+      "batter_form": 0.4217,
       "bowler_fatigue": 0.5281,
       "agent_personality": "analytical"
     },
@@ -10795,8 +11101,8 @@
       "slow_ball",
       "yorker"
     ],
-    "action": "balanced",
-    "reward": 0.43333333333333335,
+    "action": "defensive",
+    "reward": 0.7333333333333334,
     "opponent_action": "yorker"
   }
 ]

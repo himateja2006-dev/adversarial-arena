@@ -28,6 +28,10 @@ This project addresses that by forcing policy decisions to depend on evolving be
   - loads learned policy from `trained_model/policy.json` (or artifacts)
   - belief-threshold adaptation (e.g. strong `bouncer` belief -> counter)
   - anti-repetition diversification
+- `agents/trained_model_agent.py`
+  - loads full fine-tuned model + tokenizer from `trained_model/` or `trained_models/model_v*/`
+  - inference-first policy source for `inference.py --agent auto`
+  - strict action validation with explicit fallback logging
 
 ## Baseline and Training
 
@@ -37,12 +41,16 @@ This project addresses that by forcing policy decisions to depend on evolving be
 - Trajectories:
   - `training/collect_trajectories.py` -> `data/trajectories.json`
   - collects state, belief, history, action, reward, opponent action (320+ steps)
+  - filtered high-quality subset saved to `data/filtered_trajectories.json`
 - Local train:
   - `training/train_local.py`
-  - high-quality filtering (`reward > 0.5`) + reward-weighted learning
+  - top-30%-or-`reward > 0.5` filtering + reward-weighted oversampling
   - writes `training/artifacts/trained_policy.json` and `trained_model/policy.json`
 - Colab train:
   - `training/train_unsloth.ipynb` (Unsloth + TRL)
+  - saves full model to `trained_model/`
+  - versions each run to `trained_models/model_v*/` with `metadata.json`
+  - logs `training/artifacts/training_logs.json` (reward history, rolling mean, action distribution, belief-action alignment)
 
 ## Evidence of Learning
 
@@ -51,10 +59,12 @@ This project addresses that by forcing policy decisions to depend on evolving be
   - `plots/comparison.png`
   - `training/artifacts/evaluation_report.json`
 - Measured result (latest local run):
-  - baseline average score: `0.4569`
-  - trained average score: `0.5139`
-  - improvement: `+0.0570`
-- Key claim: **trained agent adapts to opponent patterns and outperforms random baseline with clear margin.**
+  - before baseline avg reward: `0.2962`
+  - after training avg reward: `0.4315`
+  - improvement: `+0.1353`
+- Behavior validation (`training/validate_behavior.py`):
+  - when `belief["bouncer"] >= 0.6`, agent selects `balanced` counter strategy
+- Key claim: **trained agent explicitly links belief to action and outperforms baseline by a strong margin.**
 
 ## Strict Inference Output
 
@@ -76,6 +86,8 @@ commentary=...
 score=...
 ```
 
+Each step additionally reports `policy_source` to verify whether actions come from `trained_model`, `trained_policy_map`, `llm_fallback`, or `random_fallback`.
+
 ## Run
 
 ```bash
@@ -83,7 +95,8 @@ cd "/Users/himatejagudi/Desktop/SRS"
 pip install -r requirements.txt
 PYTHONPATH=. python training/train_local.py
 PYTHONPATH=. python training/evaluate_and_plot.py
-PYTHONPATH=. python inference.py --task adaptive_opponent --agent trained --episode 1
+python -m inference --task adaptive_opponent --agent auto --episode 1
+python -m inference --task adaptive_opponent --agent auto --episodes 20
 ```
 
 API:

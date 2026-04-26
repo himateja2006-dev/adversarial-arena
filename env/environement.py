@@ -179,7 +179,7 @@ class AdversarialArenaEnv:
             "slow_ball": "balanced",
         }
         adaptation = 1.0 if batter_action == counter_map[opponent_action] else 0.0
-        belief_counter_bonus = 0.1 if batter_action == counter_map[dominant_belief_action] and dominant_belief_prob >= 0.35 else 0.0
+        belief_counter_bonus = 0.15 if batter_action == counter_map[dominant_belief_action] and dominant_belief_prob >= 0.35 else 0.0
 
         repeats = self._last_actions.count(batter_action)
         diversity_penalty = min(0.25, max(0.0, (repeats - 3) * 0.05))

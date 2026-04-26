@@ -1,5 +1,8 @@
 {
-  "baseline_average_score": 0.45689864118189716,
-  "trained_average_score": 0.5138662053717308,
-  "improvement": 0.05696756418983362
+  "before_baseline_avg_reward": 0.2961998144415463,
+  "after_training_avg_reward": 0.43150993603417703,
+  "improvement": 0.13531012159263073,
+  "before_baseline_consistency": 0.8104613105744218,
+  "after_training_consistency": 0.793397902058077,
+  "training_note": "After-training policy learned from high-reward filtered trajectories (PPO-style objective proxy)."
 }

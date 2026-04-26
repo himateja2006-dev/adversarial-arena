@@ -5,5 +5,6 @@
     "spin": "aggressive",
     "slow_ball": "balanced"
   },
-  "note": "Reward-weighted trajectory policy."
+  "note": "Top-quality filtered + reward-weighted trajectory policy.",
+  "num_training_rows": 105
 }
